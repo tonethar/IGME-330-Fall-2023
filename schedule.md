@@ -15,7 +15,7 @@
 | 05 | **09/26** & **09/28** | Canvas |
 | 06 | **10/03** & **10/05** | Canvas & Exam #1 |
 |    |  | **Exam #1 given in-class on Thursday 10/05** |
-|    | **10/09-10/10**   Fall Break                  
+|    | **10/09-10/10**   | Fall Break                  
 | 07 | **10/12** | TBA |
 | 08 | **03/07** & **03/09** | TBA |
 |    |                       | *3/9/23 - [Career Fair Interview Day](https://www.rit.edu/careerservices/university-wide-career-fair) - 8AM-4PM* |
