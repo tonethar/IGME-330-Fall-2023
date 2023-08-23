@@ -9,14 +9,14 @@
 | Week # | Dates | Topics |
 | ------ | ----- | ------ |
 | 01 | **08/29** & **08/31** | Course Intro & Review of Basic Web App Structure |
-| 02 | **01/24** & **01/26** | Code Quality, `XHR`, higher-order methods of array, arrow functions |
-| 03 | **01/31** & **02/02** | ES6 Modules, JSON |
-| 04 | **02/07** & **02/09** | Canvas |
-| 05 | **02/14** & **02/16** | Canvas |
-| 06 | **02/21** & **02/23** | Exam #1 & Canvas |
-|    |  | **Exam #1 given in-class on Tuesday 2/21** |
-| 07 | **02/28** & **03/02** | TBA |
-|    |                       | *3/02/23 - [Creative Industry Day](https://www.rit.edu/careerservices/creative-industry-day) - 1PM-5PM* |
+| 02 | **09/05** & **09/07** | Code Quality, `XHR`, higher-order methods of array, arrow functions |
+| 03 | **09/12** & **09/14** | ES6 Modules, JSON |
+| 04 | **09/19** & **09/21** | Canvas |
+| 05 | **09/26** & **09/28** | Canvas |
+| 06 | **10/03** & **10/05** | Canvas & Exam #1 |
+|    |  | **Exam #1 given in-class on Thursday 10/05** |
+|    | **10/09-10/10**   Fall Break                  
+| 07 | **10/12** | TBA |
 | 08 | **03/07** & **03/09** | TBA |
 |    |                       | *3/9/23 - [Career Fair Interview Day](https://www.rit.edu/careerservices/university-wide-career-fair) - 8AM-4PM* |
 |    | **03/12** - **03/19** | ***Spring Break - no class meetings*** |
