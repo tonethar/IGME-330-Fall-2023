@@ -1,4 +1,4 @@
-# IGME-330 - Spring 2023: Schedule
+# IGME-330 - Fall 2023: Schedule
 
 ## Contents
 
@@ -8,7 +8,7 @@
 
 | Week # | Dates | Topics |
 | ------ | ----- | ------ |
-| 01 | **01/17** & **01/19** | Course Intro & Review of Basic Web App Structure |
+| 01 | **08/29** & **08/31** | Course Intro & Review of Basic Web App Structure |
 | 02 | **01/24** & **01/26** | Code Quality, `XHR`, higher-order methods of array, arrow functions |
 | 03 | **01/31** & **02/02** | ES6 Modules, JSON |
 | 04 | **02/07** & **02/09** | Canvas |
