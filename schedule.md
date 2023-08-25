@@ -16,7 +16,7 @@
 |    |                       | *9/28/23 - [Career Fair Interview Day](https://www.rit.edu/careerservices/university-wide-career-fair) - 8AM-4PM* |
 | 06 | **10/03** & **10/05** | Canvas & Exam #1 |
 |    |  | **Exam #1 given in-class on Thursday 10/05** |
-|    | **10/09-10/10**   | Fall Break                  
+|    | **10/09-10/10**   | Fall Break  |                
 | 07 | **10/12** | TBA |
 | 08 | **10/17** & **10/19** | TBA |
 | 09 | **10/24** & **10/26** | TBA |
@@ -24,7 +24,7 @@
 |    |  | **Exam #2 given in-class on Thursday 11/02** |
 | 11 | **011/07** & **11/09** | TBA |
 | 12 | **11/21** | TBA |
-|    | **11/22-11/24**   | Thanksgiving Holiday   
+|    | **11/22-11/24**   | Thanksgiving Holiday |
 | 13 | **11/28** & **11/30** | TBA |
 | 14 | **12/05** & **12/07** | TBA |
 |    |  | **Exam #3 given during Finals week** |
