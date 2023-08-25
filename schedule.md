@@ -18,18 +18,16 @@
 |    |  | **Exam #1 given in-class on Thursday 10/05** |
 |    | **10/09-10/10**   | Fall Break                  
 | 07 | **10/12** | TBA |
-| 08 | **03/07** & **03/09** | TBA |
-
-|    | **03/12** - **03/19** | ***Spring Break - no class meetings*** |
-| 09 | **03/21** & **03/23** | TBA |
-|    |                       | *[GDC - All Week](https://gdconf.com/)* |
-| 10 | **03/28** & **03/30** | TBA |
-|    |  | **Exam #2 given in-class on Thursday 3/30** |
-| 11 | **04/04** & **04/06** | TBA |
-| 12 | **04/11** & **04/13** | TBA |
-| 13 | **04/18** & **04/20** | TBA |
-| 14 | **04/25** & **04/27** | TBA |
-|    |  | **Exam #3 given on last day of class** |
+| 08 | **10/17** & **10/19** | TBA |
+| 09 | **10/24** & **10/26** | TBA |
+| 10 | **10/31** & **11/02** | TBA |
+|    |  | **Exam #2 given in-class on Thursday 11/02** |
+| 11 | **011/07** & **11/09** | TBA |
+| 12 | **11/21** | TBA |
+|    | **11/22-11/24**   | Thanksgiving Holiday   
+| 13 | **11/28** & **11/30** | TBA |
+| 14 | **12/05** & **12/07** | TBA |
+|    |  | **Exam #3 given during Finals week** |
 
 
 
