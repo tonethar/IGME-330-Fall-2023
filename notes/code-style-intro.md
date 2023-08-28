@@ -36,7 +36,7 @@ const car = {
 if(car.cylinders == 4){
   speed = "slow";
 }else{
-  speed = 0;
+  speed = 100;
   counter++;
 }
 
