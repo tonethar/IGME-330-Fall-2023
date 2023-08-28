@@ -58,7 +58,7 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 ## VI. Grading
 
 ### VI-A. Exams (40%)
-- 3 written exams covering concepts, as well as "write some code" questions
+- 3 written exams covering concepts, as well as "write some code" questions. There will be several sample/practice quizzes given to help you study for these
 
 ### VI-B. Homework Assignments (30%)
 - Substantial assignments that you will given a week to complete, 5 or 6 of these will be assigned during the semester
