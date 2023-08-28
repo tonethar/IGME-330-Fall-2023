@@ -1,5 +1,5 @@
 # IGME-330 Rich Media Web Application Development I. 
-## Spring 2023: Syllabus
+## Fall 2023: Syllabus
 
 ## I. Course Catalog Description 
 *This course provides students the opportunity to explore the design and development of media-rich web applications that utilize both static and procedurally manipulated media such as text, images and audio. This course examines client and server-side web development and features common to such applications.  Issues explored include framework characteristics, information management, presentation, interactivity, persistence, and data binding. Programming projects are required. 3 Credits*
@@ -22,7 +22,7 @@
      - Exception: If you need to copy someone else in, email me at tony@mail.rit.edu, but also send a Slack DM, so that I know to go look for it.
   - Office Location: GOL-2525 (IGM "Main Hall")
   - Office hours:
-    - M-F days/times - probably in Slack - available by request
+    - MW
  
 <hr>
 
@@ -30,8 +30,9 @@
 - most of the course content will be located on this GitHub site
 - https://mycourses.rit.edu will contain additional materials, and will also be used for announcements, assignment submissions, and grading
 - keep an eye on the dropboxes in mycourses for assignment due dates
-- you will be expected to participate in this multi-section Slack workspace throughout the semester: 
-  - https://igme-330-fall2023.slack.com
+- Make sure you have accepted the invite to the course Slack:
+  - https://rit-igme-330-123-2231.slack.com/
+  - Go ahead and post an Introduction there
   - read this [IGME 330 - Introduction to Slack](https://docs.google.com/document/d/e/2PACX-1vQqjfsmGnvlweL9-ruKtsLn1wExSF2vapG1sVFGBJullHnFvbBYtYb60U8gaE7igzDGyGxzzYCxMmON/pub) document for details.
 
 ### Course Textbook (these are free)
@@ -70,12 +71,11 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 - Others will be short out-of-class assignments such as "Watch this XHR/JSON video walkthough and get the code working"
 
 ### VI-E. Attendance/Participation
-- Missing class results in a deduction from your final course average: 
-  - zero or 1 absence = +1% to final average
-  - 2 absences = -1% to final average
-  - 3 absences = -4%
-  - 4 absences = -10%
-  - 5+ absences = F in course
+- Missing class (or being habitually late) will often do harm to your performance in this class. Excessive absences can result in a deduction from your final course average: 
+  - 3 absences = -5% from final course average
+  - 4 absences = -10% from final course average
+  - 5 absences = -20% from final course average
+  - An so on ...
   - Being late counts as 1/2 of an absence
   - You can request to be excused from a class meeting for a school or career related opportunity  - write your instructor *in advance* of that class meeting. 
   - If you can't attend class for any reason, always let us know *in advance*. But be advised that if you are not given advance permission by your instructor to miss a class meeting, an absence will not be excused unless there is documentation of the reasons for that absence by RIT
@@ -100,16 +100,11 @@ Final course grades are determined using the following scale:
 ### VII-A. Late assignments
 - Assignments will not be accepted late without the prior approval of the instructor
 
-### VII-B. Grading requirements to pass the course
-- To pass this course, you must meet **BOTH** of the following requirements:
-  - your overall course grade must be greater than or equal to 65%
-  - the weighted average of your 3 exams must be greater than or equal to 65%
-
-### VII-C. Policy on Incomplete Grades
+### VII-B. Policy on Incomplete Grades
 - Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed, and then only by prior arrangement with the professor. Being overcommitted and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor as early as possible in the semester if you're having difficulty. 
 
-###  VII-D. Academic Dishonesty
-- The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing or commiting duplicate submission without permission, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic dishonesty: 
+###  VII-C. Academic Dishonesty
+- The course policy on academic dishonesty is simple: ***Do your own work***. If you get caught cheating or plagiarizing or commiting duplicate submission without permission, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic dishonesty: 
 [http://www.rit.edu/~w-policy/sectionD/D8.html](http://www.rit.edu/~w-policy/sectionD/D8.html)
 - **Duplicate submission** is the submitting of the same or similar work for credit in more than one course without prior approval of the instructors for those same courses. *If you took IGME-330 previously, you **may not** hand in code that you previously submitted (for example, a previous version of an Audio Visualizer, or game, or web app)*
 
