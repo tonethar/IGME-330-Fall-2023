@@ -31,12 +31,12 @@ const car = {
   "model":"Pinto",
   cylinders:4,
   "model":"Escort"
-};
+}
 
 if(car.cylinders == 4){
   speed = "slow";
 }else{
-  speed = "not slow";
+  speed = 0;
   counter++;
 }
 
