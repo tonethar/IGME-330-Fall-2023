@@ -109,7 +109,7 @@ Final course grades are determined using the following scale:
 - **Duplicate submission** is the submitting of the same or similar work for credit in more than one course without prior approval of the instructors for those same courses. *If you took IGME-330 previously, you **may not** hand in code that you previously submitted (for example, a previous version of an Audio Visualizer, or game, or web app)*
 
 ### VI-D. Generative AI ([ChatGPT](https://chat.openai.com/) etc)
-Coding solutions must be your own work, which means you cannot use generative AI tools in any manner to write your programs. When learning fundamental skills, you need to ensure that you master the basics. If I doubt authorship, I may ask you to explain the code or re-create aspects of the code in one of our labs – you must show that you have mastered the fundamentals.
+- Coding solutions must be your own work, which means you cannot use generative AI tools in any manner to write your programs. When learning fundamental skills, you need to ensure that you master the basics. If I doubt authorship, I may ask you to explain the code or re-create aspects of the code in one of our labs – you must show that you have mastered the fundamentals.
 
 <hr>
 
