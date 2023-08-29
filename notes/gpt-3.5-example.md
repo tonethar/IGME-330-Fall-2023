@@ -35,7 +35,7 @@
 
 ## III. Discussion
 
-- Before you utilize ("hand in") any of the code from above, you should be able to answer most of the above questions \
+- ***Before you utilize ("hand in") any of the code from above, you should be able to answer most of the above questions***
 - You will undoubtedly need to re-factor some of this code:
   - `let` and `const` instead of `var`
   - named arrow functions where possible to aid in debugging
