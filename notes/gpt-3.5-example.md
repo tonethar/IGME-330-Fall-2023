@@ -41,6 +41,7 @@
   - named arrow functions where possible to aid in debugging
   - get rid of unnecessary code (ex. don't always need to send headers)
   - add more error handling
+  - turn the refactored code into a reusable "helper" function
   - and so on ...
 - Unless you are already initimately familiar with the HTTP protocol, callbacks, promises, etc - more research will need to be done:
   - Continue the conversation with ChaptGPT (asking specifics about GET v. POST etc)?
