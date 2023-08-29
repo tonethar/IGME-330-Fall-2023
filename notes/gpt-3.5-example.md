@@ -40,7 +40,13 @@
   - `let` and `const` instead of `var`
   - named arrow functions where possible to aid in debugging
   - get rid of unnecessary code (ex. don't always need to send headers)
-  - add error handling
-- 
+  - add more error handling
+  - and so on ...
+- Unless you are already initimately familiar with the HTTP protocol, callbacks, promises, etc - more research will need to be done:
+  - Continue the conversation with ChaptGPT (asking specifics about GET v. POST etc)?
+  - Head to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP)?
+  - Watch your favorite JS YouTuber?
+  - Ask in the Course Slack?
+  - Ask the Professor? `:-O`
 
 
