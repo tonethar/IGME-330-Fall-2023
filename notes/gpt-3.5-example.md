@@ -43,7 +43,7 @@
   - add more error handling
   - turn the refactored code into a reusable "helper" function
   - and so on ...
-- Unless you are already initimately familiar with the HTTP protocol, callbacks, promises, etc - more research will need to be done:
+- Unless you are already initimately familiar with the HTTP protocol (request methods, request & response headers and status codes), callbacks, promises, etc - more research will need to be done:
   - Continue the conversation with ChatGPT (asking specifics about `GET` v. `POST` etc)?
   - Head to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP)?
   - Watch your favorite JS YouTuber?
