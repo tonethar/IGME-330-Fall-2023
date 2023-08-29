@@ -21,9 +21,10 @@
   - Contact: Slack DM (ONLY) -- here's [a link you can click to reach me easily](https://rit.enterprise.slack.com/user/@U01FESWS866).
      - Exception: If you need to copy someone else in, email me at tony@mail.rit.edu, but also send a Slack DM, so that I know to go look for it.
   - Office Location: GOL-2525 (IGM "Main Hall")
-  - Office hours:
-    - MW
- 
+  - Office hours (online):
+    - Monday/Wednesday: 6:00pm – 7:00pm - DM me in Slack to get a meeting going
+    - Also, by appointment
+
 <hr>
 
 ## IV. Course Materials and Communication
