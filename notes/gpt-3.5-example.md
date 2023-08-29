@@ -24,7 +24,7 @@
   - What is the difference between a `GET` and a `POST` Request? Which should I use?
   - Should I use `XHR` or `fetch()`? What are the advantages and disadvanatges of each?
   - The first code block sets a *request header* - what's that? Is it necessary to set those?
-  - What are the `readyState` and `status` properties? What are the possible values?
+  - What are the `readyState` and `status` properties? What do these represnt? What are their possible values?
   - This code block uses `var` (not allowed in this course) and the `function` keyword instead of the arrow functions seen in the later code examples. Does this mean that `XHR` only works with `var` and `function`?
   - What does `JSON.stringify()` do?
   - What are `.then()` and `.catch()` and *Promises*?
