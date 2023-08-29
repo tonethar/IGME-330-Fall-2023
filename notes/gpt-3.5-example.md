@@ -13,3 +13,16 @@
 ![screenshot](_images/chat-gpt-3.png)
 
 ![screenshot](_images/chat-gpt-4.png)
+
+<hr>
+
+## II. So now you've got some code!
+
+- Four distinct solutions are given ...
+- Some might just copy/paste the first answer? (A common "Stackoverflow.com" workflow ...)
+- Questions you might have:
+
+
+<hr>
+
+
