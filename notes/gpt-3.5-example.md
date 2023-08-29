@@ -22,7 +22,8 @@
   - but as stated in the syllabus - *"If I doubt authorship, I may ask you to explain the code or re-create aspects of the code"*
 - Questions you might have about this code:
   - What is the difference between a `GET` and a `POST` Request? Which should I use?
-  - Should I use `XHR` or `fetch()`? What are the advantages and disadvanatges of each?
+  - What exactly is a "callback function"
+  - Should I use `XHR` or `fetch()`? What are the advantages and disadvantages of each?
   - The first code block sets a *request header* - what's that? Is it necessary to set those?
   - What are the `readyState` and `status` properties? What do these represnt? What are their possible values?
   - This code block uses `var` (not allowed in this course) and the `function` keyword instead of the arrow functions seen in the later code examples. Does this mean that `XHR` only works with `var` and `function`?
