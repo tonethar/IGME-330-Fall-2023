@@ -14,7 +14,7 @@
 ## III. Instructor and Class Details 
 
 ### Sections 01-03 (Jefferson)
-- **IGME-330-02** - TR 9:30AM-10:45AM in ORN-1380
+- **IGME-330-02** - TR 9:30AM-10:45AM in MSS-3110
 - **IGME-330-01** - TR 3:30PM-4:45PM in MSS-3110
 - **IGME-330-03** - TR 5:00PM-6:15PM in MSS-2175
 - Instructor Info for Tony Jefferson:
