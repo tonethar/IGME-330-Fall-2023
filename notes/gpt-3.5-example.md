@@ -17,7 +17,7 @@
 
 ## II. So now you've got some code!
 
-- **Three** distinct solutions are given ...
+- **Four** distinct solutions are given ...
 - Some might just copy/paste the first answer? (A common and unfortunate Stackoverflow.com "workflow" ...)
   - but as stated in the syllabus - *"If I doubt authorship, I may ask you to explain the code or re-create aspects of the code"*
 - Questions you might have about this code:
