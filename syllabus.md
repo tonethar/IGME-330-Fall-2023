@@ -16,7 +16,7 @@
 ### Sections 01-03 (Jefferson)
 - **IGME-330-02** - TR 9:30AM-10:45AM in MSS-3110
 - **IGME-330-01** - TR 3:30PM-4:45PM in MSS-3110
-- **IGME-330-03** - TR 5:00PM-6:15PM in MSS-2175
+- **IGME-330-03** - TR 5:00PM-6:15PM in MSS-3110
 - Instructor Info for Tony Jefferson:
   - Contact: Slack DM (ONLY) -- here's [a link you can click to reach me easily](https://rit.enterprise.slack.com/user/@U01FESWS866).
      - Exception: If you need to copy someone else in, email me at tony@mail.rit.edu, but also send a Slack DM, so that I know to go look for it.
