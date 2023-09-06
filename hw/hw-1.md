@@ -65,7 +65,7 @@
         - `babbleLoaded()` parses the JSON
         - `babbleLoaded()` will initialize the values of the "words" arrays
         - `babbleLoaded()` will then initialize the button click events
-        - `babbleLoaded()` will also display some initial "start up" babble when the user first loads the app
+        - `babbleLoaded()` will also call another function that displays some initial "start up" babble
 
 <hr>
 
