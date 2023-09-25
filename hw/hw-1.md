@@ -19,6 +19,7 @@
     - you can use the "wrapper function" technique we demoed in class and that you used on the final version of "Greeter"
   - Also, you MUST use a loop to build each line of babble
   - Also, you MUST use [*template strings*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) when building each line of babble
+  - Also, be sure that this new button is styled the same as the original button!
   - PS - When the app starts up, it still needs to show a single random Technobabble to the user. Meaning - don't forget to call `generateTechno(1)` right after the page loads
 
 <hr>
