@@ -101,9 +101,9 @@ orderTaco2({
 ## IV. Conditions & assignment
 - Never use `if(myBool == true){...}` OR `if(myBool == false){...}` etc
   - instead use `if(!myBool){...}` OR `if(!myBool){...}`
-- Ternary Operator
-- Logical OR - `||`
-- Null-colasecing operator - `??`
+- [Ternary Operator - `condition ? trueExpression : falseExpression`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
+- [Logical OR - `operand1 || operand1`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+- [Nullish coalescing operator - `operand1 ?? operand2` or `??=`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
 
 <hr>
 
