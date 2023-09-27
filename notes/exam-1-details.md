@@ -19,7 +19,7 @@
 
 ### III-A. Class Lecture Notes
 - [Week 1A](../weekly/01A.md) through [Week 5B](../weekly/05B.md)
-- [Class "notes" and content  folder](../notes)
+- [Class "notes" folder](../notes)
 
 ### III-B. Quizzes 
 - In myCourses:
@@ -35,7 +35,7 @@
 ### III-C. Assignments
 
 - [Checkoffs](../checkoffs)
-- [Practice Exercises #1-#5](../pe)
+- [Practice Exercises #1-#6](../pe)
 - [HW-1](../hw/hw-1.md)
 
 <hr>
