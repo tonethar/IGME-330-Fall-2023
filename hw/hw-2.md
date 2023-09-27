@@ -73,7 +73,10 @@
   - gradients and images - animated or otherwise
   - interesting applications of `ctx.translate()`, `ctx.rotate()` and `ctx.scale()`
   - resources - [Canvas IV - Gradients & Bezier Curves](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-4.md)
-
+- ***To get higher than a 0% in this category, changes MUST be substantially improve the user experience (including aesthetics), appearance and/or functionality of the visualization.***
+  - For example, merely changing the colors and the size of the pulsing circles, or modifying the background gradient from one garish combination of colors to another garish combination of colors, will not earn any points in this category
+  - For maximum points in this category, think "passion project" or "portfolio piece" that is distinctly different from PE-07 and is something you could show to a potential employer
+  
 <hr>
 
 ##  VI. Documentation Requirements
