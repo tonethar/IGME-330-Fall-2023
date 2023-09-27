@@ -28,7 +28,7 @@
   - Week 2B - Practice Quiz PDF
   - Week 3A - Practice Quiz PDF
   - Week 3B - Practice Quiz PDF
-  - Week 3B - Take-home Quiz PDF
+  - Week 3B - Take-home Quiz DOC
 - Online:
   - [Week 4A - Practice Take-home Quiz](./week-4A-practice-quiz.md)
   - [Week 4B - Practice Quiz](./week-4B-practice-quiz.md)
