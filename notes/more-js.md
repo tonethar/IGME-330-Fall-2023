@@ -99,8 +99,8 @@ orderTaco2({
 <hr>
 
 ## IV. Conditions & assignment
-- Never use `if(myBool == false)`
-- `if/else` statement
+- Never use `if(myBool == true){...}` OR `if(myBool == false){...}`
+  - instead use `if(!myBool){...}` OR `if(!myBool){...}`
 - Ternary Operator
 - Logical OR - `||`
 - Null-colasecing operator - `??`
