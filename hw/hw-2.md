@@ -2,7 +2,7 @@
 
 ## Overview
 - Build your ***ultimate version*** of the Audio Visualizer!
-- Your starting point MUST be the "done" version of [PE-06 - Audio Visualizer](../pe/pe-06.md)
+- Your starting point MUST be the "done" version of [PE-07 - Audio Visualizer](../pe/pe-07.md)
 
 
 <hr>
