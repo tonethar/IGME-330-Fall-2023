@@ -101,7 +101,7 @@ orderTaco2({
 ## IV. Conditions & assignment
 - Never use `if(myBool == true){...}` OR `if(myBool == false){...}` etc
   - the above `==` is redundant because `if(condition)` is a boolean context that expects a JS expression that evaluates to a boolean value, and here `myBool` is already a boolean value
-  - instead use `if(!myBool){...}` OR `if(!myBool){...}`
+  - instead use `if(myBool){...}` OR `if(!myBool){...}`
 - [Ternary Operator - `condition ? trueExpression : falseExpression`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
 - [Logical OR - `operand1 || operand1`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
 - [Nullish coalescing operator - `operand1 ?? operand2` or `??=`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
