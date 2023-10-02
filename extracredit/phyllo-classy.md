@@ -3,7 +3,7 @@
 ## I. Overview
 - Mission: Modify the Phyllotaxis assignment to utilize an ES6 class
 - Your starting point can be:
-  - the completed version of your Phyllotaxis app from [PE-05 - Algorthmic Botany](../pe/pe-05.md)
+  - the completed version of your Phyllotaxis app from [PE-06 - Algorthmic Botany](../pe/pe-06.md)
   - OR the start file below (a demo version of Phyllotaxis from class)
   - Other resources:
     - [ES6 Object Notes](../notes/object-notes.md)
