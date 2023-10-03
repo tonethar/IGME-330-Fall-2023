@@ -5,7 +5,6 @@
   - the "states" the object can exist in (i.e. properties)
   - and a set of functions that define the behavior of that object (i.e. methods)
 - [IGME-235 - Object Literals Reference Material](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-apps-7.md)
-- PS - a JS REPL we can use today - https://repljs.com/
 
 <hr>
 
