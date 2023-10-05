@@ -1,8 +1,8 @@
 # Canvas & Web Audio Resources
 
-## I. PE-06 - Audio Visualizer
+## I. PE-07 - Audio Visualizer
 
-- [PE-06 - Audio Visualizer](../pe/pe-06.md)
+- [PE-07 - Audio Visualizer](../pe/pe-07.md)
   - Audio Visualizer - Part I
   - Audio Visualizer - Part II
   - Audio Visualizer - Part III
