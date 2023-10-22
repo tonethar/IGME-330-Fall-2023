@@ -1,6 +1,6 @@
 ## HW - Demo Video
 
-- A 60 to 120 second narrated demo of the completed project is required
+- A 60 to 120 second narrated demo of the completed HW is required
 - Submission:
   - you may post it to YouTube - if so put the URL in the dropbox comments field
   - if you decide to upload a video file instead, it MUST be in the MP4 format
