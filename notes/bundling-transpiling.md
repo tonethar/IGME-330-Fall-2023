@@ -52,7 +52,7 @@ Babel is an ES6 (and future versions of ES) to ES5 transpiler.
 
 - https://babeljs.io
 
-Try pasting the following ES6 class code into the Babel REPL at http://babeljs.io/repl - and see what kind of ES5 code you get back.
+Try pasting the following ES6 code into the Babel REPL at http://babeljs.io/repl - and see what kind of ES5 code you get back.
 
 - You'll need to select the "Enabled" and "FORCE ALL TRANSFORMS" checkboxes under ENV PRESET section to see the full ES5 compatible code. 
 	
