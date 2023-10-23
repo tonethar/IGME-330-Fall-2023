@@ -159,7 +159,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm init -y
  ```
  
- - This will create your **package.json** file with default *metadata* about your project, which are in an object literal, which should look something like this:
+ - This will create your **package.json** file with default *metadata* about your project, in the JSON format, which should look something like this:
  
  ```js
  {
