@@ -116,6 +116,7 @@ To see if you already have **node** and **npm** installed on your computer, type
   - https://github.com/sameerkumar18/geek-joke-api
 - and here is the URL to the service:
   - https://geek-jokes.sameerkumar.website/api
+  - **UPDATE:** If the above web service is "down", use this one instead: `https://people.rit.edu/~acjvks/330/shared/php/get-joke.php`
 
 If you test the above link in a browser, you will see a random plain-text joke such as `"E-mail returned to sender... insufficient voltage."`
 
