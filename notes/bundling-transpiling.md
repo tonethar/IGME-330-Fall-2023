@@ -135,13 +135,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npx -v
  ```
  
- - If needed, you can run the updater on `npm` itself by typing:
- 
- ```js
- npm install npm@latest -g
- ```
- 
- - You can also update `node` if need be - there is a program called `nvm` (*node version manager*) - or you can also just download a new installer from the web site - https://nodejs.org/en/download/
+ - You can update `node` if need be - there is a program called `nvm` (*node version manager*) - or you can also just download a new installer from the web site - https://nodejs.org/en/download/
  
 <hr>
  
