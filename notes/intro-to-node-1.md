@@ -109,7 +109,7 @@ To see if you already have **node** and **npm** installed on your computer, type
 
 - We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random geek joke" web service. The web service will return the joke data in plain text format - here are the docs:
   - https://github.com/sameerkumar18/geek-joke-api
-- and here is the URL to the service:
+- and here is the URL to the service (click on the link to load it in browser, to be sure that it works):
   - https://geek-jokes.sameerkumar.website/api
   - **UPDATE:** ***If the above web service is "down", use this one instead***:
     - https://people.rit.edu/~acjvks/330/shared/php/get-joke.php
