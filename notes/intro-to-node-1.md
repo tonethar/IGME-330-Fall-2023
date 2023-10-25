@@ -89,7 +89,7 @@ To see if you already have **node** and **npm** installed on your computer, type
  
 ## II. "Hello Node"
  
- Let's write a "Hello world" command-line script to be sure everything works:
+ Let's write a "Hello world" command-line script to be sure `node` works on our machine:
  - create a folder named **hello**
  - inside of this folder create a new file named **index.js**
  - add one line of code to this file:
@@ -107,7 +107,7 @@ To see if you already have **node** and **npm** installed on your computer, type
   
 ## III. Downloading and displaying a simple "text" web service
 
-- We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random geek joke" web service. The web service will return the joke data in plain text format - here are the docs:
+- We are going to keep this as bare-bones as possible, so we will just download a joke from a "random geek joke" web service. The web service will return the joke data in plain text format - here are the docs:
   - https://github.com/sameerkumar18/geek-joke-api
 - and here is the URL to the service (click on the link to load it in browser, to be sure that it works):
   - https://geek-jokes.sameerkumar.website/api
