@@ -79,12 +79,7 @@ To see if you already have **node** and **npm** installed on your computer, type
    node -v
    npm -v
    ```
- 
- - After that, you can run the updater on `npm` by typing the following (Mac users will need `sudo` at the beginning of this command):
- 
-   ```js
-   npm install npm@latest -g
-   ```
+
  
  - ***At this point you should be ready to go!***
  
