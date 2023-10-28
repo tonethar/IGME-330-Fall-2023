@@ -3,9 +3,9 @@
 <hr>
 
 ## I. When is it? / What's on it?
-- Week 10B - Thursday 3/30/23
-- *Anything* and *everything* we have covered weeks 1-9 of this semester is fair game
-  - but ... the focus will be on the new content covered from weeks 6-9 (Canvas, WebAudio, Objects/Classes and some Unix & Node.js)
+- Week 11A - Tuesday 11/07/23
+- *Anything* and *everything* we have covered weeks 1-10 of this semester is fair game
+  - but ... the focus will be on the new content covered from weeks 5-10 (Canvas, WebAudio, Objects/Classes and some Unix & Node.js)
 
 <hr>
 
@@ -19,14 +19,14 @@
 ## III. Review & Study Resources
 
 ### III-A. Class Lecture Notes
-- [Week 1A](../weekly/01A.md) through [Week 9B](../weekly/09B.md)
+- [Week 1A](../weekly/01A.md) through [Week 10B](../weekly/10B.md)
 - [IGME-330 "notes" and content folder](../notes)
 - Don't forget about:
   - Canvas:
     - [Canvas 2D Essential Skills 1 - Intro to the Drawing Context](https://github.com/tonethar/IGME-330-Master/blob/master/notes/1-canvas-intro-to-drawing-context.md) through [Canvas 2D Essential Skills #8 - Canvas Transformations](https://github.com/tonethar/IGME-330-Master/blob/master/notes/8-canvas-transformations.md)
     - [Canvas - Drawing images & Blending Modes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-5.md)
   - Web Audio:
-    - [PE-06 - Audio Visualizer](../pe/pe-06.md)
+    - [PE-07 - Audio Visualizer](../pe/pe-07.md)
     - [Web Audio Walkthrough (has videos)](webaudio-walkthrough.md)
       - [Web Audio I - Build a Simple Audio Visualizer](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-1.md)
       - [Web Audio II - Treble, Bass & Distortion Nodes](https://github.com/tonethar/IGME-330-Master/blob/master/notes/demo-web-audio-2.md)
