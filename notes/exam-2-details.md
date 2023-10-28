@@ -38,7 +38,6 @@
     - stack v. heap
     - mutability with `const`, `Object.freeze()`, `Object.seal()`
     - `Object.create()` and object prototypes
-  - [Review notes for 6B Quiz](../weekly/07B.md#iii-review-6b-take-home-quiz)
 - Online:
   - [Exam #2 - Practice A (Misc)](./exam-2-practice-A.md)
   - [Exam #2 - Practice B (Canvas)](./exam-2-practice-B.md)
