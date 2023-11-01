@@ -12,6 +12,7 @@
   - IGME-330's [HW-2 - Audio Visualizer - Ultimate Version](../hw/hw-2.md)
   - IGME-235's Web App of Awesomeness (*link tba*)
 - If there is a different project you would rather refactor, ask (well) in advance of the due date
+- Put everything in a folder named ***coder-a*-hw-3-refactor** (with **coder-a** replaced by your actual last name and initial)
   
 --- 
 
@@ -73,7 +74,7 @@
 
 ## IX. Submission
 - ZIP and Post to myCourses
-  - Your completed ***coder-a*-hw-3** folder (with **node_modules** deleted)
+  - Your completed ***coder-a*-hw-3-refactor** folder (with **node_modules** deleted)
   - The original version of the web app you re-factored:
     - if you refactored *HW-2 - Audio Visualizer - Ultimate Version*, I already have that, so don't worry about re-submitting it
 - Post the completed HW-3 to banjo
