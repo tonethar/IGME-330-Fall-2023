@@ -20,7 +20,7 @@
 - Make sure that the HTML inside **index.html** follows our course naming standards ("kebab-case" for `id` and `class` names, etc)
 - The HTML must pass the validator at: https://validator.w3.org/
 - All files (.html, .js, .css etc) must follow course naming standards (kebab-case, no spaces etc)
-
+- ***If you are refactoring HW-2 - Audio Visualizer, this will not take too long***
 ---
 
 ## III. Refactor the JS
@@ -28,8 +28,8 @@
 - variable and function names must follow course naming standards
 - all code will be located in ES6 module files that use `import` and/or `export` as we have been doing all semester
   - if needed, refactor the code to "separate concern" into specific logical modules (meaning, separate .js files that utilize `export`
-  - ES6 `class` declarations must be in their own distinct file (ex. **CircleSprite.js** or **RectangleSprite.js** etc...)
-
+  - ES6 `class` declarations ***MUST*** be in their own distinct file (ex. **CircleSprite.js** or **RectangleSprite.js** etc...)
+- ***If you are refactoring HW-2 - Audio Visualizer, this will not take too long***
   
 ---
 
@@ -48,25 +48,35 @@
 ## VI. Choose a language to code in (15%)
 
 - Option #1 - ES6 "Vanilla" JavaScript (max grade for this section is 0%)
+  - just do what we've been doing all semester (ES6 modules, arrow functions, `let` & `const` etc)
 - Option #2 - TypeScript (max grade for this section is 15%)
+  - Review:
+    - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
+    - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
+    - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types
 - Option #3 - React (max grade for this section is 15%)
 
 ---
 
-## VII. Bundle the code
+## VII. Bundle the code (15%)
+- For option #1 (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
+- For option #2 (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
+- For option #3 (React) above
+  
+---
 
+## VIII. Documentation
+- Tell us what language you coded in
+- For options #2 & #3, describe the code changes you implemented
 
 ---
 
-
-## XXX. Submission
+## IX. Submission
 - ZIP and Post to myCourses
   - Your completed ***coder-a*-hw-3** folder (with **node_modules** deleted)
   - The original version of the web app you re-factored:
     - if you refactored HW-2 Web Audio Visualizer of Awesomeness, I already have that, so don't worry about re-submitting it
 - Post the completed HW-3 to banjo
-- In comments field of the dropbox:
-  - tell us what language you decided to code in
-  - 
+- Required Documentation
 
 
