@@ -48,21 +48,21 @@
 
 ## VI. Choose a language to code in (15%)
 
-- Option #1 - ES6 "Vanilla" JavaScript (max grade for this section is 0%)
+- **Option #1** - ES6 "Vanilla" JavaScript (max grade for this section is 0%)
   - just do what we've been doing all semester (ES6 modules, arrow functions, `let` & `const` etc)
-- Option #2 - TypeScript (max grade for this section is 15%)
+- **Option #2** - TypeScript (max grade for this section is 15%)
   - Review:
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
     - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types
-- Option #3 - React (max grade for this section is 15%)
+- **Option #3** - React (max grade for this section is 15%)
 
 ---
 
 ## VII. Bundle the code (15%)
-- For option #1 (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
-- For option #2 (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
-- For option #3 (React) above
+- For **option #1** (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
+- For **option #2** (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
+- For **option #3** (React) above
   
 ---
 
