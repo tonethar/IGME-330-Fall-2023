@@ -1,12 +1,18 @@
 # HW-3 - Web App refactor (DRAFT)
 
-## Overview
-- For this HW you will choose a web app you previously created in IGME-235 or IGME-330 and will update and refactor the code
+---
 
+## Overview
+- For this HW you will choose a web app you previously created in IGME-235 or IGME-330, and will update the UI and refactor the code
+
+---
 
 ## I. Choose a web app to refactor
-- There are two "pre-approved" web apps you may 
-
+- There are two "pre-approved" web apps you may use:
+  - IGME-330's [HW-2 - Audio Visualizer - Ultimate Version](../hw/hw-2.md)
+  - IGME-235's Web App of Awesomeness (*link tba*)
+- If there is a different project you would rather refactor, ask (well) in advance of the due date
+  
 --- 
 
 ## II. Refactor the app's HTML
@@ -37,6 +43,7 @@
 
 ## V. Add an about.html page
 
+---
 
 ## VI. Choose a language to code in (15%)
 
