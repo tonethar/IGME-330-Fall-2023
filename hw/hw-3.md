@@ -75,7 +75,7 @@
 - ZIP and Post to myCourses
   - Your completed ***coder-a*-hw-3** folder (with **node_modules** deleted)
   - The original version of the web app you re-factored:
-    - if you refactored HW-2 Web Audio Visualizer of Awesomeness, I already have that, so don't worry about re-submitting it
+    - if you refactored *HW-2 - Audio Visualizer - Ultimate Version*, I already have that, so don't worry about re-submitting it
 - Post the completed HW-3 to banjo
 - Required Documentation
 
