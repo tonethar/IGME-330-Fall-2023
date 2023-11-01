@@ -3,7 +3,8 @@
 ## I. Overview
 - Home page:  https://react.dev/
 - Thinking in React (Components, state, state flow): https://react.dev/learn/thinking-in-react
-
+- https://react.dev/learn
+  
 ---
 
 ## II. React playground
