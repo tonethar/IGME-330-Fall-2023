@@ -12,7 +12,7 @@
   - IGME-330's [HW-2 - Audio Visualizer - Ultimate Version](../hw/hw-2.md)
   - IGME-235's Web App of Awesomeness (*link tba*)
 - If there is a different project you would rather refactor, ask (well) in advance of the due date
-- Put everything in a folder named ***coder-a*-hw-3-refactor** (with **coder-a** replaced by your actual last name and initial)
+- Put everything in a folder named ***coder-a*-hw-3-refactor** (with ***coder-a*** replaced by your actual last name and initial)
   
 --- 
 
