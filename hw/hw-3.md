@@ -5,13 +5,14 @@
 
 
 ## I. Choose a web app to refactor
-
+- There are two "pre-approved" web apps you may 
 
 --- 
 
-## II. Refactor the HTML
-- Make sure that the HTML follows our course naming standards ("kebab-case" for id and class names, etc)
-- The HTML must pass the validator at
+## II. Refactor the app's HTML
+- The app's HTML file shall be named **index.html**
+- Make sure that the HTML inside **index.html** follows our course naming standards ("kebab-case" for `id` and `class` names, etc)
+- The HTML must pass the validator at: https://validator.w3.org/
 - All files (.html, .js, .css etc) must follow course naming standards (kebab-case, no spaces etc)
 
 ---
@@ -30,10 +31,14 @@
 - use [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md) as a "starter" page
 - reimplement the app UI in the starter page
 - use appropriate Bulma classes (for buttons etc)
+- ...
 
 ---
 
-## V. Choose a language to code in (15%)
+## V. Add an about.html page
+
+
+## VI. Choose a language to code in (15%)
 
 - Option #1 - ES6 "Vanilla" JavaScript (max grade for this section is 0%)
 - Option #2 - TypeScript (max grade for this section is 15%)
@@ -41,12 +46,20 @@
 
 ---
 
-## VI. Bundle the code
+## VII. Bundle the code
 
 
 ---
 
 
 ## XXX. Submission
+- ZIP and Post to myCourses
+  - Your completed ***coder-a*-hw-3** folder (with **node_modules** deleted)
+  - The original version of the web app you re-factored:
+    - if you refactored HW-2 Web Audio Visualizer of Awesomeness, I already have that, so don't worry about re-submitting it
+- Post the completed HW-3 to banjo
+- In comments field of the dropbox:
+  - tell us what language you decided to code in
+  - 
 
 
