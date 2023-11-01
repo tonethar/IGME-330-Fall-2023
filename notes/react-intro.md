@@ -13,13 +13,20 @@
 
 ## III. React in the browser
 - React's JSX component syntax will not run in the browser directly, and first needs to be transpiled into VanillaJS.
-- The simplest way to do this (which is appropriate for development, not production) is to let the browser do the transpiling for us by importing React and Babel libraries from a CDN
-- React:
+- The simplest way to do this is to let the browser do the transpiling for us by importing React and Babel libraries from a CDN
+- ***Note: While this way is the simplest way to get started with React, it's not appropriate for production code, and it is unlikely likely that this approach will be supported in the long-term***
+- React CDN Links:
   - https://legacy.reactjs.org/docs/cdn-links.html
-  - 
-- Babel - `babel-standalone` - a build of Babel for use in non-Node.js environments:
+- Babel CDN Links - `babel-standalone` - a build of Babel for use in non-Node.js environments:
   - https://babeljs.io/docs/babel-standalone
   - https://cdnjs.com/libraries/babel-standalone
+ 
+**react-cdn.html**
+
+```html
+  
+
+```
 
 ---
   
