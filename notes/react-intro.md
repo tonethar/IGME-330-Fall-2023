@@ -1,13 +1,14 @@
 # Into to React
 
 ## I. Overview
-- Home page - https://react.dev/
+- Home page:  https://react.dev/
+- Thinking in React (Components, state, state flow): https://react.dev/learn/thinking-in-react
 
 ---
 
 ## II. React playground
 
-- React Code Sandbox to play in -  https://react.new
+- React Code Sandbox to play in: https://react.new
 
 ---
 
