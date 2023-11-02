@@ -167,7 +167,7 @@
 
 - The two  most popular ways to quickly and easily creat React apps are:
   -  create-react-app - https://create-react-app.dev/
-  -  Vite - https://vitejs.dev/
+  -  Vite (pronounced "veet") - https://vitejs.dev/
 
 ---
 
@@ -179,7 +179,7 @@
 
 ---
 
-### VI-A. Create a Vite (pronounced "veet") project
+### VI-A. Create a Vite project
 
 - Create folder named **todo-app** and `cd` into it
 - Type: `npm create vite@latest`
