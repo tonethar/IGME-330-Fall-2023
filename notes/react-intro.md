@@ -1,6 +1,7 @@
 # Into to React
 
 ## I. Overview
+- React - *The library for web and native user interfaces*
 - Home page:  https://react.dev/
 - Thinking in React (Components, state, state flow): https://react.dev/learn/thinking-in-react
 - https://react.dev/learn
