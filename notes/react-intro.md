@@ -11,6 +11,11 @@
 ## II. React playground
 
 - React Code Sandbox to play in: https://react.new
+- Let's try it out
+- Function components are pretty simple - they return a string os JSX (similar to HTML) that React will then render
+- Let's create 2 new components:
+  - a `Smiley` component that takes no parameters
+  - a `Message` component that takes a `props` parameter
 
 ---
 
@@ -23,6 +28,7 @@
 - Babel CDN Links - `babel-standalone` - a build of Babel for use in non-Node.js environments:
   - https://babeljs.io/docs/babel-standalone
   - https://cdnjs.com/libraries/babel-standalone
+- Let's try out some more React (rendering lists, displaying images) with this code:
  
 **react-cdn.html**
 
