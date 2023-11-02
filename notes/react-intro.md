@@ -225,6 +225,8 @@ export default App
 - To get a form text input displaying, make the App component look like this:
 
 ```jsx
+import "./styles.css";
+
 const App = () => {
   return (
     <form className="new-item-form">
