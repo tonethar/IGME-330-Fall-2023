@@ -12,7 +12,7 @@
 
 - React Code Sandbox to play in: https://react.new
 - Let's try it out
-- Function components are pretty simple - they return a string os JSX (similar to HTML) that React will then render
+- Function components are pretty simple - they return a string of JSX (similar to HTML) that React will then render
 - Let's create 2 new components:
   - a `Smiley` component that takes no parameters
   - a `Message` component that takes a `props` parameter
