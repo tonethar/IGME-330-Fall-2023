@@ -167,7 +167,7 @@
 
 ## VI. Creating a "Todo" app with React and Vite
 
-- Let's go though the first part of this video toge=ther:
+- Let's go though the first part of this video together:
   - [YouTube: Learn React With This One Project](https://www.youtube.com/watch?v=Rh3tobg7hEo)
   - Files: https://github.com/WebDevSimplified/react-todo-list/
 
