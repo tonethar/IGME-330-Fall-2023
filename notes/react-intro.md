@@ -286,7 +286,7 @@ export default App;
   - try typing in a new value, although you can't see it yet, the value of `newItem` is being changed on every keystroke
   - go ahead and put in a `console.log()` in the correct place to see that this is true
 - Let's add another "useState()" hook to keep track of our items - `const [todos, setTodos] = useState([]);`
-- To get the **Add** button working, add this attribute to the `<form>` - `onSubmit={handleSubmit}`
+- To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`) - `onSubmit={handleSubmit}`
 - Now add the `handleSubmit` function, it goes right under the 2 `useState()` declarations
 
 ```jsx
