@@ -281,7 +281,7 @@ export default App;
 - add `value={newItem}` attribute to the `<input>`
   - this *binds* the `newItem` variable's state (value) to the `<input>` field
   - but not the other way around
-- Check the browser to be sure that "test" is displaying in the list item, then move on
+- Check the browser to be sure that "test" is displaying in the  `<input>` field, then move on
 - Add `onChange={e => setNewItem(e.target.value)}` attribute to the `<input>`
   - try typing in a new value, although you can't see it yet, the value of `newItem` is being changed on every keystroke
   - go ahead and put in a `console.log()` in the correct place to see that this is true
