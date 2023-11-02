@@ -264,7 +264,7 @@ const App = () => {
 
 ### VI-D. Create some state and setters/getters with `useState()`
 
-- `useState` is a React Hook that lets you add a state variable to your component
+- `useState` is a React Hook that lets you add a state variable to your function component
   - https://react.dev/reference/react/useState
 - Hooks are features that allow you to “hook into” the features of React state and lifecycle from function components
 
