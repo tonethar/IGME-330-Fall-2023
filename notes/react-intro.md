@@ -288,7 +288,8 @@ export default App;
 - Let's add another "useState()" hook to keep track of our items - `const [todos, setTodos] = useState([]);`
 - To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`) - `onSubmit={handleSubmit}`
   - note that React events are *camel cased* - `onSubmit`, `onClick` etc to distinguish them from DOM events
-- Now add the `handleSubmit` function, it goes right under the 2 `useState()` declarations
+  - there are errors in the console - `handleSubmit` isn't declared yet - so move on
+- Now declare the `handleSubmit` function, it goes right under the 2 `useState()` declarations
 
 ```jsx
 const handleSubmit = e => {
