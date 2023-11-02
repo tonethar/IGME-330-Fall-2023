@@ -319,9 +319,15 @@ const handleSubmit = e => {
 </ul>
 ```
 
-- Check the browser, click the add button to be sure that multiple items can be added, then move on
+- Check the browser, click the **Add** button to be sure that multiple items can be appended to the list, then move on ...
 
 ---
 
 ### VI-E. Carry on!
  - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can finish it on your own!***
+ - How do you "publish" the app and put it on the web?
+   - press control-c to quit the "npm run vite" server
+   - type `npm run build`
+   - now you will see the **dist/** folder has been populated with an **index.html** file, a **.js** file and a **.css** file - this is the "transpiled and bundled" version that's ready for distribution
+     - you can test it locally by running just this **dist/** folder on Live Server
+     - PS - if you put it on banjo, you'll need to fix the `href` attributes of the `<script>` and `<link>` tags
