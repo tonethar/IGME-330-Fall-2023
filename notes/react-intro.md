@@ -249,8 +249,71 @@ const App = () => {
   </li>
 </ul>
 ```
+
 - Check the browser to be sure it is displaying, then move on
 
 ---
 
-### VI-D.
+### VI-D. Create some state and setters/getters with `useState()`
+
+- `useState` is a React Hook that lets you add a state variable to your component
+  - https://react.dev/reference/react/useState
+- Hooks are features that allow you to “hook into” the features of React state and lifecycle from function components
+
+- add `import { useState } from "react";` to top of **App.js**
+- add `const [newItem, setNewItem] = useState("test");` right before the `return` statement
+  - note the array destructuring assignment above
+  - `newItem` is a now declared as a variable
+  - `setNewItem` is a setter (created by React) that I call whenever I want to change the value of `newItem`
+  - `"test"` is the initial value for `newItem`
+- add `value={newItem}` attribute to the `<input>`
+  - this *binds* the `newItem` variable's state (value) to the `<input>` field
+  - but not the other way around
+- Check the browser to be sure that "test" is displaying in the list item, then move on
+- Add `onChange={e => setNewItem(e.target.value)}` attribute to the `<input>`
+  - try typing in a new value, although you can't see it yet, the value of `newItem` is being changed on every keystroke
+  - go ahead and put in a `console.log()` in the correct place to see that this is true
+- Let's add another "useState()" hook to keep track of our items - `const [todos, setTodos] = useState([]);`
+- To get the **Add** button working, add this attribute to the `<form>` - `onSubmit={handleSubmit}`
+- Now add the `handleSubmit` function, it goes right under `useState()`
+
+```jsx
+const handleSubmit = e => {
+  e.preventDefault();
+  // this adds a new todo object to the end of the array
+  setTodos(currentTodos => {
+    return [
+      ...currentTodos,
+      {
+        id: crypto.randomUUID(),
+        title: newItem,
+        completed: false
+      }
+    ]
+  });
+  setNewItem(""); //clear out input
+};
+````
+
+- Now **display** the todos by replacing the `<ul></ul>` code with this:
+
+```jsx
+<ul className="list">
+  {todos.map(todo => {
+    return <li key={todo.id}>
+    <label>
+      <input type="checkbox"  checked={todo.completed}/>
+      {todo.title}
+    </label>
+    <button className="btn btn-danger">Delete</button>
+  </li>
+  })}
+</ul>
+```
+
+- Check the browser, click the add button to be sure that multiple items can be added, then move on
+
+---
+
+### VI-E. Carry on!
+ - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can finish it on your own!***
