@@ -201,7 +201,7 @@
   - **main.jsx**
   - **index.html**
 - remove this line from **main.jsx** - `import './index.css'`
-- Make **App.js** look like this:
+- Make **App.jsx** look like this:
 
 ```jsx
 const App = () => {
@@ -266,7 +266,7 @@ const App = () => {
   - https://react.dev/reference/react/useState
 - Hooks are features that allow you to “hook into” the features of React state and lifecycle from function components
 
-- add `import { useState } from "react";` to top of **App.js**
+- add `import { useState } from "react";` to the top of **App.jsx**
 - add `const [newItem, setNewItem] = useState("test");` right before the `return` statement
   - note the array destructuring assignment above
   - `newItem` is a now declared as a variable
