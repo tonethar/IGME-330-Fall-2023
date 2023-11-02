@@ -237,6 +237,8 @@ const App = () => {
     </form>
   )
 };
+
+export default App;
 ```
 - Check the browser to be sure it is displaying, then move on
 - Add a button to the bottom of the form (right before `</form>`)
