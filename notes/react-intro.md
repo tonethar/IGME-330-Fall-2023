@@ -1,4 +1,4 @@
-# Into to React
+# Intro to React
 
 ## I. Overview
 - React - *The library for web and native user interfaces*
