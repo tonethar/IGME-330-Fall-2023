@@ -167,3 +167,90 @@
 
 ## VI. Creating a "Todo" app with React and Vite
 
+- Let's go though the first part of this video toge=ther:
+  - [YouTube: Learn React With This One Project](https://www.youtube.com/watch?v=Rh3tobg7hEo)
+  - Files: https://github.com/WebDevSimplified/react-todo-list/
+
+---
+
+### VI-A. Create a Vite (pronounced "veet") project
+
+- Create folder named **todo-app** and `cd` into it
+- Type: `npm create vite@latest`
+  - for *Project name*: type a period to create a project in current folder
+  - for *Framework*: choose React
+  - for *Variant*: choose JavaScript
+- `npm install`
+- `npm run dev`
+- Head to localhost to see app running in browser
+  - click the "Count" button to try out `useState()`
+
+---
+
+### VI-B. Examine code and create "Hello World"
+- Look in **index.html**, **main.js**, and **app.jsx** to see what they do
+- Look in **package.json**
+- Get rid of most of the web files, but keep:
+  - **App.jsx**
+  - **main.jsx**
+  - **index.html**
+- remove this line from **main.jsx** - `import './index.css'`
+- Make **App.js** look like this:
+
+```jsx
+const App = () => {
+  return "Hello World";
+};
+
+export default App
+````
+
+- Head to browser to see "Hello World" in window
+
+---
+
+### VI-C. Start building
+
+- Create **src/styles.css**
+- Here's the CSS - https://github.com/WebDevSimplified/react-todo-list/blob/main/src/styles.css
+- Import these styles at the top of **App.jsx** with `import "./styles.css";`
+- To get a form text input displaying, make the App component look like this:
+
+```jsx
+const App = () => {
+  return (
+    <form className="new-item-form">
+      <div className="form-row">
+        <label htmlFor="item">New Item</label>
+        <input type="text" id="item" />
+      </div>
+    </form>
+  )
+};
+```
+- Check the browser to be sure it is displaying, then move on
+- Add a button to the bottom of the form (right before `</form>`)
+  - `<button className="btn">Add</button>`
+- Check the browser to be sure it is displaying, then move on
+- Add a `<h1>` right AFTER the closing form tag:
+  - `<h1 className="header">Todo List</h1>`
+  - ERROR! So wrap the form and header in a "fragment" - `<></>`
+- Check the browser to be sure it is displaying, then move on
+- Add a list and a list item after the `<h1>`:
+
+```jsx
+<ul className="list">
+  <li>
+    <label>
+      <input type="checkbox" />
+      Item 1
+    </label>
+    <button className="btn btn-danger">Delete</button>
+  </li>
+</ul>
+```
+- Check the browser to be sure it is displaying, then move on
+
+---
+
+### VI-D.
