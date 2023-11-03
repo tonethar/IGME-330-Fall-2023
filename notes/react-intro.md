@@ -185,10 +185,10 @@
 
 - Create folder named **todo-app** and `cd` into it
 - Type: `npm create vite@latest`
-  - for *Project name*: type a period to create a project in current folder
-  - for *Framework*: choose React
-  - for *Variant*: choose JavaScript
-- `npm install`
+  - for *Project name*: **type a period** (`.`) to create a project in current **todo-app** folder
+  - for *Framework*: choose **React**
+  - for *Variant*: choose **JavaScript**
+- `npm i`
 - `npm run dev`
 - Head to localhost to see app running in browser
   - click the "Count" button to try out `useState()`
@@ -196,13 +196,13 @@
 ---
 
 ### VI-B. Examine code and create "Hello World"
-- Look in **index.html**, **main.js**, and **app.jsx** to see what they do
+- Look in **index.html**, **main.js**, and **App.jsx** to see what they do
 - Look in **package.json**
 - Get rid of most of the web files, but keep:
   - **App.jsx**
-  - **main.jsx**
   - **index.html**
-- remove this line from **main.jsx** - `import './index.css'`
+  - **main.jsx**
+    - remove this line from **main.jsx** - `import './index.css'`
 - Make **App.jsx** look like this:
 
 ```jsx
