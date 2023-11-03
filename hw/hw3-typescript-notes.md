@@ -133,7 +133,7 @@ volumeSlider.oninput = e => {
   ...
 ```
 
-- You could fix this by making a temp variable named target, and then reusing it in this event handler function:
+- You could fix this by making a temp variable named `target`, and then reusing it in this event handler function:
 
 ```ts
  volumeSlider.oninput = e => {
