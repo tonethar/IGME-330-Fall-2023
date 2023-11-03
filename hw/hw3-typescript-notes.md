@@ -31,7 +31,8 @@
   - in **webpack.config.js** `entry:` change the file extension of then entry point to **.ts**
     - NB: whenever you change a "config" file, always be sure to type `ctrl-c` to quit `webpack` and then restart it so that the config changes are loaded
   - quit `webpack` and then `npm run build` again:
-    - probably a bunch of errors - mostly legitimate TypeScript issues you need to fix. But there's one more error message we FIRST need to get rid of:
+    - probably a bunch of errors - mostly legitimate TypeScript issues you need to fix
+    - but there's one more error message we FIRST need to get rid of:
       - ***TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.***
 - To solve this error, we could edit the config files, but instead we'll use the "safest" and most backwardly compatible way to fix the error, which is to get rid of the file extensions from your `import` statements - example:
   
