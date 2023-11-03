@@ -287,11 +287,11 @@ export default App;
   - add: `onChange={e => setNewItem(e.target.value)}` as an attribute to the `<input>`
   - try typing a new value into the `<input>`, although you can't see it yet, the value of `newItem` is being changed on every keystroke
   - go ahead and put in a `console.log()` in the correct place to see that this is true
-- Let's add another "useState()" hook to keep track of our items:
+- Let's add another `useState()` "hook" to keep track of our items:
   - type: `const [todos, setTodos] = useState([]);`
 - To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`):
   - `onSubmit={handleSubmit}`
-  - note that React events are *camel cased* - `onSubmit`, `onClick` etc to distinguish them from DOM events
+  - note that React events and attributes are *camel cased* - `onSubmit`, `onClick` etc to distinguish them from vanilla DOM events which are lowercase only
   - there are errors in the console - `handleSubmit` isn't declared yet - so move on
 - Now declare the `handleSubmit` function, it goes right under the 2 `useState()` declarations in the `App` component
 
@@ -338,7 +338,7 @@ const handleSubmit = e => {
 ---
 
 ### VI-E. Carry on!
- - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can finish it on your own!***
+ - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can and should finish it on your own!***
    - in the remaining portion of the video, much of the code will be factored *out* of the `App` component, and *into* `TodoItem`, `TodoList` and `NewTodoForm` components
    - data persistance will also be added with `window.localStorage`
  - How do you "publish" the app and put it on the web?
@@ -346,4 +346,5 @@ const handleSubmit = e => {
    - type `npm run build`
    - now you will see the **dist/** folder has been populated with an **index.html** file, a **.js** file and a **.css** file - this is the "transpiled and bundled" version that's ready for distribution
      - you can test it locally by running just this **dist/** folder on Live Server
-     - PS - if you put it on banjo, you'll need to fix the `href` attributes of the `<script>` and `<link>` tags
+     - PS - if you put these files on banjo, you'll need to first fix the `href` attributes of the `<script>` and `<link>` tags
+       - hint: add a `.` to the beginning of the `src` and `href` urls 
