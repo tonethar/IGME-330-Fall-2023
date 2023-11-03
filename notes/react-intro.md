@@ -31,6 +31,10 @@
   - https://babeljs.io/docs/babel-standalone
   - https://cdnjs.com/libraries/babel-standalone
 - Let's try out some more React (rendering lists, displaying images) with this code:
+- Challenges:
+  - add a `text` attribute to the `Header` component (similar to how `Footer` does it)
+  - *destructure* the `props` parameter of `Footer` into `year` and `name` parameters
+  - create an `Image` component (for the tiger image) and give it `url`, `altText` and `width` attributes
  
 **react-cdn.html**
 
