@@ -222,7 +222,7 @@ const App = () => {
   return "Hello World";
 };
 
-export default App
+export default App;
 ````
 
 - Head to browser to see "Hello World" in window
