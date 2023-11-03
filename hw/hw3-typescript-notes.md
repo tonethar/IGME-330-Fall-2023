@@ -67,7 +67,7 @@ import * as canvas from './canvas';
 - My **canvas.ts** (from the Audio Visualizer PE) has 6 errors - so I'll start with those
 - Note: TypeScript is also giving a lot of "hints" (not errors) with dashed gray underlines:
   - for example *Variable 'ctx' implicitly has an 'any' type, but a better type may be inferred from usage.ts(7043)*
-  - I am going to IGNORE these hints for now and will come back to them only AFTER I have eliminated all of the errors in all of the code file, and have also confirmed that the app is bundled up and running as expected in  a web browser
+  - I am going to IGNORE these hints for now and will come back to them only AFTER I have eliminated all of the errors in ALL of the code files, and have also confirmed that the app is bundled up and running as expected in  a web browser
 - Here's my first error - kind of a tricky one:
   - ***Property 'showGradient' does not exist on type '{}'.ts(2339)***
 
@@ -85,7 +85,7 @@ etc ...
 ```
 
 - To fix these errors, I need to declare a TypeScript `interface` at the top of **canvas.ts**
-- OR even better, put this interface in a external file named **src/interfaces/drawParams.interface.ts** and `export`/`import` it where needed:
+  - OR even better, put this interface in a external file named **src/interfaces/drawParams.interface.ts** and `export`/`import` it where needed:
 
 ```ts
 interface DrawParams{
