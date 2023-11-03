@@ -50,8 +50,9 @@ import * as canvas from './canvas';
 // IN ALL OF YOUR JS FILES
 ````
 
-- quit `webpack` and then `npm run build` again
-  - you will likely have just a bunch of typescript errors at this point and now you can finally get to work!
+- Quit `webpack` and then `npm run build` again
+- You will likely have just a bunch of typescript errors at this point (which is good!)
+- And now you can finally get to work on fixing the code instead of fighting the tooling!
   
 ---
 
