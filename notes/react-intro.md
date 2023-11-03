@@ -186,6 +186,7 @@
   - [YouTube: Learn React With This One Project](https://www.youtube.com/watch?v=Rh3tobg7hEo)
   - Files: https://github.com/WebDevSimplified/react-todo-list/
 
+**Completed version:**
 ![Screenshot](_images/intro-react-1.png)
 
 ---
