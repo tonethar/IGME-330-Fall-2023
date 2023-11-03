@@ -24,7 +24,7 @@
 ## III. React in the browser
 - React's JSX component syntax will not run in the browser directly, and first needs to be transpiled into VanillaJS.
 - The simplest way to do this is to let the browser do the transpiling for us by importing React and Babel libraries from a CDN
-- ***Note: While this way is the simplest way to get started with React, it's not appropriate for production code, and it is unlikely likely that this approach will be supported in the long-term***
+- ***Note: While this way is the simplest way to get started with React, it's not appropriate for production code, and it is unlikely that this approach will be supported in the long-term***
 - React CDN Links:
   - https://legacy.reactjs.org/docs/cdn-links.html
 - Babel CDN Links - `babel-standalone` - a build of Babel for use in non-Node.js environments:
@@ -158,17 +158,18 @@
   
 ## IV. Production React - Transpiling the React using `npm`, react, webpack and so on
 
-- You can `npm i` the react, webpack, babel
-- You'll also need to creata bunch of config files ...
+- You can `npm i` the react, webpack, babel packages
+- You'd also need to create a buncha config files ...
 - Here's an (out of date) example - so just look, don't try:
   - https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+- PS: in IGME-430 we usually build our "toolchains" like this, from scratch 
 
 ---
 
-## V. Bootstrapping a React project
+## V. Bootstrapping a React project the easy way
 
-- The two  most popular ways to quickly and easily creat React apps are:
-  -  create-react-app - https://create-react-app.dev/
+- The two most popular ways to quickly and easily create React apps are:
+  -  `create-react-app` - https://create-react-app.dev/
   -  Vite (pronounced "veet") - https://vitejs.dev/
 
 ---
