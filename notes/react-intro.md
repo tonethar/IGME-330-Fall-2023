@@ -272,24 +272,27 @@ export default App;
   - https://react.dev/reference/react/useState
 - Hooks are features that allow you to “hook into” the features of React state and lifecycle from function components
 
-- add `import { useState } from "react";` to the top of **App.jsx**
-- add `const [newItem, setNewItem] = useState("test");` right before the `return` statement
+- Add `import { useState } from "react";` to the top of **App.jsx**
+- Add `const [newItem, setNewItem] = useState("test");` right before the `return` statement
   - note the array destructuring assignment above
   - `newItem` is a now declared as a variable
   - `setNewItem` is a setter (created by React) that I call whenever I want to change the value of `newItem`
   - `"test"` is the initial value for `newItem`
-- add `value={newItem}` attribute to the `<input>`
+- Add `value={newItem}` attribute to the `<input>`
   - this *binds* the `newItem` variable's state (value) to the `<input>` field
   - but not the other way around
 - Check the browser to be sure that "test" is displaying in the  `<input>` field, then move on
-- Add `onChange={e => setNewItem(e.target.value)}` attribute to the `<input>`
-  - try typing in a new value, although you can't see it yet, the value of `newItem` is being changed on every keystroke
+- Add interactivity to the text `<input>`:
+  - add: `onChange={e => setNewItem(e.target.value)}` as an attribute to the `<input>`
+  - try typing a new value into the `<input>`, although you can't see it yet, the value of `newItem` is being changed on every keystroke
   - go ahead and put in a `console.log()` in the correct place to see that this is true
-- Let's add another "useState()" hook to keep track of our items - `const [todos, setTodos] = useState([]);`
-- To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`) - `onSubmit={handleSubmit}`
+- Let's add another "useState()" hook to keep track of our items:
+  - type: `const [todos, setTodos] = useState([]);`
+- To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`):
+  - `onSubmit={handleSubmit}`
   - note that React events are *camel cased* - `onSubmit`, `onClick` etc to distinguish them from DOM events
   - there are errors in the console - `handleSubmit` isn't declared yet - so move on
-- Now declare the `handleSubmit` function, it goes right under the 2 `useState()` declarations
+- Now declare the `handleSubmit` function, it goes right under the 2 `useState()` declarations in the `App` component
 
 ```jsx
 const handleSubmit = e => {
@@ -309,7 +312,11 @@ const handleSubmit = e => {
 };
 ````
 
-- Now **display** the todos by replacing the `<ul></ul>` code with this:
+- Now **display** the todos by looping through `todos`:
+  - note that React needs for a `key` value when rendering a list
+    - https://react.dev/learn/rendering-lists
+    - https://dev.to/shiv1998/why-not-to-use-index-as-key-in-react-lists-practical-example-3e66
+  - replace the `<ul></ul>` code with this:
 
 ```jsx
 <ul className="list">
