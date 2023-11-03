@@ -70,9 +70,9 @@ import * as canvas from './canvas';
 - Here's my first error - kind of a tricky one:
   - ***Property 'showGradient' does not exist on type '{}'.ts(2339)***
 
-```
+```js
 // 3 - draw gradient
-	if(params.showGradient){ ...
+if(params.showGradient){ ...
 ````
 
 - And the error is repeated multiple times in the file:
