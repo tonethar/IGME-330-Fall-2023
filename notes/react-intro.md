@@ -187,6 +187,7 @@
   - Files: https://github.com/WebDevSimplified/react-todo-list/
 
 **Completed version:**
+
 ![Screenshot](_images/intro-react-1.png)
 
 ---
