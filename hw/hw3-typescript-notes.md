@@ -12,7 +12,7 @@
 
 - Follow the instructions here: [Intro to TypeScript#Use node & webpack to transpile a TypeScript app to JS](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md#iii-use-node--webpack-to-transpile-a-typescript-app-to-js)
 - Don't forget to edit your HTML file to use the transpiled code in the **dist/** folder:
-  - comment out the `<script>` tag
+  - comment out the `<script>` tag in the `<head>` of the document
   - and then add `<script src="./dist/bundle.js"></script>` to the bottom of the page
 - In **webpack.config.js** `entry:` change the filename from **main.ts** to whatever the "entry point" file of your app is
 - Type: `npm run build`
