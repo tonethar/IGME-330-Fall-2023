@@ -176,7 +176,7 @@
 
 - The two most popular ways to quickly and easily create React apps are:
   -  `create-react-app` - https://create-react-app.dev/
-  -  Vite (pronounced "veet") - https://vitejs.dev/
+  -  Vite (pronounced "veet") - https://vitejs.dev/ (the current favorite of the "Cool Kids")
 
 ---
 
