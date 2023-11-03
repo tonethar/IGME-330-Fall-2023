@@ -85,7 +85,7 @@ etc ...
 ```
 
 - To fix these errors, I need to declare a TypeScript `interface` at the top of **canvas.ts**
-- OR even better, put it in a external file names **src/interfaces/drawParams.interface.ts** and `import` it) :
+- OR even better, put this interface in a external file named **src/interfaces/drawParams.interface.ts** and `export`/`import` it where needed:
 
 ```ts
 interface DrawParams{
@@ -104,7 +104,7 @@ interface DrawParams{
 
 ### III-B. Fixing errors in main.ts
 
-- Next up: - my **canvas.ts** (from the Audio Visualizer PE) has 22 errors
+- Next up: - my **main.ts** (from the Audio Visualizer PE) has 22 errors
 - Here's the first error:
   - ***Property 'onclick' does not exist on type 'Element'.ts(2339)***
   
