@@ -338,8 +338,8 @@ const handleSubmit = e => {
 
 ### VI-E. Carry on!
  - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can finish it on your own!***
-   - In the remaining portion of the video, much of the code will be factored out of the App component, and into `TodoItem`, `TodoList` and `NewTodoForm` components
-   - Data persistance will also be added with `window.localStorage`
+   - in the remaining portion of the video, much of the code will be factored *out* of the `App` component, and *into* `TodoItem`, `TodoList` and `NewTodoForm` components
+   - data persistance will also be added with `window.localStorage`
  - How do you "publish" the app and put it on the web?
    - press control-c to quit the "npm run vite" server
    - type `npm run build`
