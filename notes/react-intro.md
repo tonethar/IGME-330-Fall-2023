@@ -301,6 +301,11 @@ export default App;
   - go ahead and put in a `console.log()` in the correct place to see that this is true
 - Let's add another `useState()` "hook" to keep track of our items:
   - type: `const [todos, setTodos] = useState([]);`
+
+---
+
+### VI-E. Get the "Add Todo" and "Display Todo List" functionality working
+
 - To get the **Add** button working, add this attribute to the **`<form>`** (NOT the `<button>`):
   - `onSubmit={handleSubmit}`
   - note that React events and attributes are *camel cased* - `onSubmit`, `onClick` etc to distinguish them from vanilla DOM events which are lowercase only
