@@ -95,7 +95,7 @@ interface DrawParams{
 }
 ```
 
-- To use the `DrawParams` interface, change the start for `draw()` to look like this:
+- To use the `DrawParams` interface, change the start of `draw()` to look like this:
   - `const draw = (params:DrawParams) => {...`
 - After adding in the other possible (optional) values for draw params, that knocked off all 6 of my **canvas.ts** errors
 
@@ -111,8 +111,8 @@ interface DrawParams{
 fsButton.onclick = e => { ...
 ```
 
-- Which just simply means that Typescript doe not know that fsButton is an html element
-- This is easily fixed by using a **type assertion** - `as`:
+- Which just simply means that Typescript doe not know that `fsButton` is an HTML element
+  - this is easily fixed by using a **type assertion** - `as`:
 
 ```ts
 // CHANGE THIS
