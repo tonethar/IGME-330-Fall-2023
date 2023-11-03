@@ -150,11 +150,13 @@ volumeSlider.oninput = e => {
   - in this case, it meant that the left-hand side value was a string, when it should have been a number
   - to fix this, convert the value to a number
   - hint: the `value` property of HTML `<input>` tags is ALWAYS a string - which means that sometimes you have to cast it to a number before you can use it
-
+- After much use of **type assertions**, all of the errors are gone
+  
 ---
 
 ### III-C. Fixing errors in audio.ts
-- If you see ***Property 'webkitAudioContext' does not exist on type 'Window & typeof globalThis'. Did you mean 'AudioContext'?ts(2551)***
+- Just one error in **audio.ts**
+  - if you see ***Property 'webkitAudioContext' does not exist on type 'Window & typeof globalThis'. Did you mean 'AudioContext'?ts(2551)***
 
 ```ts
 CHANGE THIS:
@@ -166,3 +168,15 @@ const AudioContext = window.AudioContext;
 // we really don't need the `webkitAudioContext` stuff anymore
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Migrating_from_webkitAudioContext
 ```
+
+- Once all of the TypeScript errors are gone from all of your **.ts** files, move on
+  
+---
+
+## IV. Test the converted app in the browser
+- Now that all of the TypeScript errors are gone, it's time to test the app in a browser
+- Check **dist/bundle.js** to be sure that there is ES5 code in it now
+- As mentioned at the beginning, don't forget to edit your HTML file to use the transpiled code in the **dist/** folder:
+  - comment out the `<script>` tag in the `<head>` of the document
+  - and then add `<script src="./dist/bundle.js"></script>` to the bottom of the page
+- Launch Live Server (you need a web server because of Web Audio and Canvas imageData access) and test the app in a browser!
