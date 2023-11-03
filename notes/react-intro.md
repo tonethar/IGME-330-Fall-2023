@@ -259,7 +259,8 @@ export default App;
 - Check the browser to be sure the button is also displaying, then move on
 - Add an `<h1>` right AFTER the closing `</form>` tag:
   - `<h1 className="header">Todo List</h1>`
-  - ERROR! React components require a *root element*! So go ahead and put the `<form>` and `<h1>` into an enclosing  "fragment" - `<>...</>`
+  - ERROR! React components require a *root element*!
+  - go ahead and put the `<form>` and `<h1>` into an enclosing "fragment" - `<>...</>`
 - Check the browser to be sure everything is displaying, then move on
 - Add a list and a list item after the `<h1>`:
 
