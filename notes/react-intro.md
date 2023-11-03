@@ -14,7 +14,7 @@
 
 - React Code Sandbox to play in: https://react.new
 - Let's try it out
-- Function components are pretty simple - they return a string of JSX (similar to HTML) that React will then render into vanilla HTML
+- Function components are pretty simple - they return a string of JSX (similar to HTML) that React will then render into "vanilla" HTML
 - Let's create 2 new components:
   - a `Smiley` component that takes no parameters
   - a `Message` component that takes a `props` parameter with a `text` property
@@ -22,7 +22,7 @@
 ---
 
 ## III. React in the browser
-- React's JSX component syntax will not run in the browser directly, and first needs to be transpiled into VanillaJS.
+- React's JSX component syntax will not run in the browser directly, and first needs to be transpiled into plain-old HTML
 - The simplest way to do this is to let the browser do the transpiling for us by importing React and Babel libraries from a CDN
 - ***Note: While this way is the simplest way to get started with React, it's not appropriate for production code, and it is unlikely that this approach will be supported in the long-term***
 - React CDN Links:
