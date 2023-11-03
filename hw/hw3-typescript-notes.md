@@ -47,7 +47,7 @@ import * as audio from './audio';
 import * as utils from './utils';
 import * as canvas from './canvas';
 
-// IN ALL OF YOUR JS FILES
+// DO THIS IN ALL OF YOUR JS FILES THAT HAVE IMPORTS
 ````
 
 - Quit `webpack` and then `npm run build` again
