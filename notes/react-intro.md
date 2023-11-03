@@ -162,12 +162,13 @@
   
 ## IV. Production React - Transpiling the React using `npm`, react, webpack and so on
 
-- You can `npm i` the react, webpack, babel packages
+- You can `npm i` the react, webpack, babel packages ...
 - You'd also need to create a buncha config files ...
 - Here's an (out of date) example - so just look, don't try:
   - https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
-- PS: in IGME-430 we usually build our "toolchains" like this, from scratch 
-
+- NB: in IGME-430 we usually build our "toolchains" like this, from scratch 
+- Let's move on ...
+  
 ---
 
 ## V. Bootstrapping a React project the easy way
