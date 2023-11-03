@@ -142,3 +142,27 @@ volumeSlider.oninput = e => {
     audio.setVolume(target.value);
     ...
 ```
+
+- You might also see ***Type 'number' is not assignable to type 'string'.*** error
+  - this means that a property is expecting a string type as a value, not a number
+  - to fix this, convert the value to a string
+- Another error was ***The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type***
+  - in this case, it meant that the left-hand side value was a string, when it should have been a number
+  - to fix this, convert the value to a number
+  - hint: the `value` property of HTML `<input>` tags is ALWAYS a string - which means that sometimes you have to cast it to a number before you can use it
+
+---
+
+### III-C. Fixing errors in audio.ts
+- If you see ***Property 'webkitAudioContext' does not exist on type 'Window & typeof globalThis'. Did you mean 'AudioContext'?ts(2551)***
+
+```ts
+CHANGE THIS:
+const AudioContext = window.AudioContext || window.webkitAudioContext;
+
+TO THIS:
+const AudioContext = window.AudioContext;
+
+// we really don't need the `webkitAudioContext` stuff anymore
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Migrating_from_webkitAudioContext
+```
