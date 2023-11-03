@@ -244,7 +244,7 @@ export default App;
 - Add a button to the bottom of the form (right before `</form>`)
   - `<button className="btn">Add</button>`
 - Check the browser to be sure it is displaying, then move on
-- Add a `<h1>` right AFTER the closing form tag:
+- Add a `<h1>` right AFTER the closing `</form>` tag:
   - `<h1 className="header">Todo List</h1>`
   - ERROR! So wrap the form and header in a "fragment" - `<></>`
 - Check the browser to be sure it is displaying, then move on
@@ -331,6 +331,8 @@ const handleSubmit = e => {
 
 ### VI-E. Carry on!
  - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can finish it on your own!***
+   - In the remaining portion of the video, much of the code will be factored out of the App component, and into `TodoItem`, `TodoList` and `NewTodoForm` components
+   - Data persistance will also be added with `window.localStorage`
  - How do you "publish" the app and put it on the web?
    - press control-c to quit the "npm run vite" server
    - type `npm run build`
