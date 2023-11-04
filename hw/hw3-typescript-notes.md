@@ -200,4 +200,4 @@ const AudioContext = window.AudioContext;
     -  `let ctx` becomes `let ctx:CanvasRenderingContext2D`
     -  etc
 - **main.ts**
-  - import your `DrawParams` interface and type the local `drawParams` object
+  - `import` your `DrawParams` interface and strongly type the local `drawParams` object
