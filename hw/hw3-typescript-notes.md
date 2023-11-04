@@ -194,6 +194,9 @@ const AudioContext = window.AudioContext;
   - Turn `const DEFAULTS` into a "real" TypeScript `enum`
     - https://www.typescriptlang.org/docs/handbook/enums.html
     - Then put it in **src/types/audio-defaults.enum.ts** and `export`/`import` it
+  - Note that `let audioData = new Uint8Array(DEFAULTS.numSamples/2);` is unused
+    - you can delete it
+  - Strongly type your function parameters
 - **canvas.ts**
   - Put the `DrawParams` interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
   - Strongly type your variables:
