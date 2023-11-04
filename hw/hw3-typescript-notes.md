@@ -197,4 +197,4 @@ const AudioContext = window.AudioContext;
 - **canvas.ts**
   -  put the `DrawParams` interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
 - **main.ts**
-  - import your `DrawParams` interface and type local `drawParams` object
+  - import your `DrawParams` interface and type the local `drawParams` object
