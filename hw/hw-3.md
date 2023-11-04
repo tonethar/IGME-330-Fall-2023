@@ -54,7 +54,8 @@
   - Review:
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
-    - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types
+    - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types where needed
+    - ***This walks through converting the Audio Visualizer over to TypeScript: [Converting an existing project to TypeScript](hw3-typescript-notes.md)***
 - **Option #3** - React (max grade for this section is 15%)
 
 ---
