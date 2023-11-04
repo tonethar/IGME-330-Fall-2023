@@ -85,8 +85,9 @@ etc ...
 ```
 
 - To fix these errors, I need to declare a TypeScript `interface` at the top of **canvas.ts**
-  - OR even better, put this interface in a external file named **src/interfaces/drawParams.interface.ts** and `export`/`import` it where needed:
-
+  - OR even better, put this interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed:
+  - https://www.typescriptlang.org/docs/handbook/interfaces.html
+    
 ```ts
 interface DrawParams{
   showGradient: boolean,
@@ -180,3 +181,17 @@ const AudioContext = window.AudioContext;
   - comment out the `<script>` tag in the `<head>` of the document
   - and then add `<script src="./dist/bundle.js"></script>` to the bottom of the page
 - Launch Live Server (you need a web server because of Web Audio and Canvas imageData access) and test the app in a browser!
+- Assuming everything works perfectly, move on ...
+
+---
+
+## V. Keep re-factoring the code
+- Now that you've dealt with TypeScript errors, it's time to deal with the TypeScript "hints" - which are underlined with dashed gray lines
+- **audio.ts**
+  - Go ahead and *strongly type*:
+    - `let audioCtx;` to `let audioCtx:AudioContext;`
+    - `let element` to `let element:HTMLAudioElement`
+    - etc
+  - Turn `const DEFAULTS` into a "real" TypeScript `enum`
+    - https://www.typescriptlang.org/docs/handbook/enums.html
+    - Then put it in **src/types/audio-defaults.enum.ts** and `export`/`import` it
