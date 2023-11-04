@@ -195,9 +195,10 @@ const AudioContext = window.AudioContext;
     - https://www.typescriptlang.org/docs/handbook/enums.html
     - Then put it in **src/types/audio-defaults.enum.ts** and `export`/`import` it
 - **canvas.ts**
-  -  Put the `DrawParams` interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
-  -  Strongly type you variables:
-    -  `let ctx` becomes `let ctx:CanvasRenderingContext2D`
-    -  etc
+  - Put the `DrawParams` interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
+  - Strongly type your variables:
+    - `let ctx` becomes `let ctx:CanvasRenderingContext2D`
+    - etc
+  - Strongly type your function parameters
 - **main.ts**
   - `import` your `DrawParams` interface and strongly type the local `drawParams` object
