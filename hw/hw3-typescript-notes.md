@@ -199,9 +199,17 @@ const AudioContext = window.AudioContext;
   - Strongly type your function parameters
 - **canvas.ts**
   - Put the `DrawParams` interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
-  - Strongly type your variables:
+  - Strongly type your variables where needed:
     - `let ctx` becomes `let ctx:CanvasRenderingContext2D`
     - etc
   - Strongly type your function parameters
 - **main.ts**
   - `import` your `DrawParams` interface and strongly type the local `drawParams` object
+  - Strongly type your variables where needed:
+  - Strongly type your function parameters
+- **utils.ts**
+  - Strongly type your function parameters
+    - `colorStops` is the only one that will be tricky - it needs an interface
+   
+---
+---
