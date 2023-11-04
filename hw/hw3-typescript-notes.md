@@ -85,7 +85,6 @@ etc ...
 ```
 
 - To fix these errors, I need to declare a TypeScript `interface` at the top of **canvas.ts**
-  - OR even better, put this interface in a external file named **src/types/drawParams.interface.ts** and `export`/`import` it where needed
   - https://www.typescriptlang.org/docs/handbook/interfaces.html
     
 ```ts
@@ -195,3 +194,8 @@ const AudioContext = window.AudioContext;
   - Turn `const DEFAULTS` into a "real" TypeScript `enum`
     - https://www.typescriptlang.org/docs/handbook/enums.html
     - Then put it in **src/types/audio-defaults.enum.ts** and `export`/`import` it
+- **canvas.ts**
+  -  put the `DrawParams` interface in a external file named **src/types/DrawParams.interface.ts** and `export`/`import` it where needed
+- **main.ts**
+  - delete the local `drawParams` object and import your DrawParams interface instead
+    - you will get some errors
