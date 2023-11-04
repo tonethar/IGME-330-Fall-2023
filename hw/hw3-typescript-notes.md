@@ -193,7 +193,7 @@ const AudioContext = window.AudioContext;
     - etc
   - Turn `const DEFAULTS` into a "real" TypeScript `enum`
     - https://www.typescriptlang.org/docs/handbook/enums.html
-    - Then put it in **src/types/audio-defaults.enum.ts** and `export`/`import` it
+    - Then put it in **src/enums/audio-defaults.enum.ts** and `export`/`import` it
   - Note that `let audioData = new Uint8Array(DEFAULTS.numSamples/2);` is unused
     - you can delete it
   - Strongly type your function parameters
