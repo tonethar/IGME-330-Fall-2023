@@ -209,7 +209,8 @@ const AudioContext = window.AudioContext;
   - Strongly type your function parameters
 - **utils.ts**
   - Strongly type your function parameters
-    - `colorStops` is the only one that will be tricky - it needs an interface - Hint: create a `interface ColorStop{...}`  first
+    - `colorStops` is the only one that will be tricky - it needs an interface
+    - Hint: create a `interface ColorStop{...}`  first
    
 ---
 ---
