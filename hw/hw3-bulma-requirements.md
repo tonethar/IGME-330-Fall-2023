@@ -1,4 +1,4 @@
-# HW3 - Bulma Notes
+# HW3 - Bulma Requirements
 
 ## I. An 'About' Page is required
 - A good starting point is **home.html** from [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md)
