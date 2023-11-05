@@ -3,6 +3,7 @@
 ## I. An 'About' Page is required
 - A good starting point is **home.html** from [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md)
 - The name of the page must be **about.html**
+  - give the `<title>` tag a meaningful value
 - It must have a navigation system that includes a hamburger menu
 - It must have text that describes the project (meaning, get rid of the "hotdog" text)
 - It must have at least one image that is related to the project (meaning, get rid of the "hotdog" image)
@@ -20,6 +21,7 @@
 - A good starting point is **home.html** from [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md)
   - NB: if you are going to have multiple columns and/or rows in your app page layout (almost a certaintly), you will also want to review PE-08's "index" pages that demoed how to lay out columns and rows in Bulma 
 - The name of the page must be **index.html**
+  - give the `<title>` tag a meaningful value
 - It must have a navigation system that includes a hamburger menu
 - Get rid of the Hotdog icon (unless your project is about hot dogs)
   - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
