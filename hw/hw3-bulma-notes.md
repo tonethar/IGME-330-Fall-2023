@@ -8,7 +8,8 @@
 - It must have at least one image that is related to the project (meaning, get rid of the "hotdog" image)
 - It must have your contact info on it (meaning, get rid of Ace Coder's info)
 - The colors chosen for backgrounds/fonts etc should be consistent with **index.html**
-- Get rid of the Hotdog icon (unless your project is about hot dogs) - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
+- Get rid of the Hotdog icon (unless your project is about hot dogs):
+  - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
 - To keep the hamburger menu functional, rename **index.js** to **hamburger.js** and import it with a `<script>` tag
 - See example screenshots below
 
@@ -20,7 +21,8 @@
   - NB: if you are going to have multiple columns and/or rows in your app page layout (almost a certaintly), you will also want to review PE-08's "index" pages that demoed how to lay out columns and rows in Bulma 
 - The name of the page must be **index.html**
 - It must have a navigation system that includes a hamburger menu
-- Get rid of the Hotdog icon (unless your project is about hot dogs) - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
+- Get rid of the Hotdog icon (unless your project is about hot dogs)
+  - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
 - The colors chosen for backgrounds/fonts etc should be consistent with **index.html**
 - To keep the hamburger menu functional, rename **index.js** to **hamburger.js** and import it with a `<script>` tag OR move that code to `setupUI()` or similar
 - See example screenshots below
