@@ -16,7 +16,7 @@
   
 --- 
 
-## II. Refactor the app's HTML
+## II. Refactor the app's HTML (10%)
 - The app's HTML file shall be named **index.html**
 - Make sure that the HTML inside **index.html** follows our course naming standards ("kebab-case" for `id` and `class` names, etc)
 - The HTML must pass the validator at: https://validator.w3.org/
@@ -24,7 +24,7 @@
 - ***If you are refactoring HW-2 - Audio Visualizer, this will not take too long***
 ---
 
-## III. Refactor the JS
+## III. Refactor the JS (10%)
 - all regular functions (including anonymous functions) will be refactored to utilize `const` and arrow function syntax
 - variable and function names must follow course naming standards
 - all code will be located in ES6 module files that use `import` and/or `export` as we have been doing all semester
@@ -34,16 +34,16 @@
   
 ---
 
-## IV. Refactor the CSS with Bulma
-- use [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md) as a "starter" page
-- reimplement the app UI in the starter page
-- use appropriate Bulma classes (for buttons etc)
-- ...
+## IV. Refactor the CSS with Bulma (25%)
+- Use [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md) as a "starter" page
+- Reimplement the app UI in the starter page
+- See [HW3 - Bulma Requirements](hw3-bulma-requirements.md)
 
 ---
 
-## V. Add an about.html page
-
+## V. Add an about.html page (10%)
+- See [HW3 - Bulma Requirements](hw3-bulma-requirements.md)
+  
 ---
 
 ## VI. Choose a language to code in (15%)
@@ -57,17 +57,30 @@
     - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types where needed
     - ***This walks through converting the Audio Visualizer over to TypeScript: [Converting an existing project to TypeScript](hw3-typescript-notes.md)***
 - **Option #3** - React (max grade for this section is 15%)
+  - you probably want to start out by bootstrapping a new project with Vite:
+    - [Intro to React#v-bootstrapping-a-react-project](../notes/react-intro.md#v-bootstrapping-a-react-project)
+  - recommendtions:
+    - if you want to try out this option (React), consider doing so on the Web Service Application, NOT the Audio Visualizer
+    - start out by first trying to get everything working in a single `App` component, and then decompose/re-factor the working code into other components
 
 ---
 
-## VII. Bundle the code (15%)
+## VII. Bundle the code (0-15%)
 - For **option #1** (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
 - For **option #2** (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
 - For **option #3** (React) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to React#v-bootstrapping-a-react-project](../notes/react-intro.md#v-bootstrapping-a-react-project)
   
 ---
 
-## VIII. Documentation
+## VIII. The app still works (15%)
+
+- The app should now:
+  - look good thanks to your HTML/CSS skills, and Bulma
+  - be written 
+
+---
+
+## IX. Documentation
 - Tell us what language you coded in
 - For options #2 & #3, describe the code changes you implemented
 
