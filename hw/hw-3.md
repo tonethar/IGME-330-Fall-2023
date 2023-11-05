@@ -86,7 +86,7 @@
 ---
 
 ## IX. Submission
-- Post the completed HW-3 to banjo:
+- Post the completed HW-3 to the banjo web server:
   - Did you forget how to post to `banjo.rit.edu`? Get help here --> https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
   - don't post unneeded files/folders to banjo (**package.json**, **node_modules**, TypeScript config files, etc)
   - be sure to test the project on banjo and be 100% sure that it works 
