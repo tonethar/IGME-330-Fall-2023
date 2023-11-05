@@ -7,8 +7,8 @@
 
 ![index page](./_images/hw3-index.png)
 
-![index page hamburger](hw3-index-hamburger.png)
+![index page hamburger](./_images/hw3-index-hamburger.png)
 
-![about page](hw3-about.png)
+![about page](./_images/hw3-about.png)
 
-![about page hamburger](hw3-about-hamburger.png)
+![about page hamburger](./_images/hw3-about-hamburger.png)
