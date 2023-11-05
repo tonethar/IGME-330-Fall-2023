@@ -34,19 +34,14 @@
   
 ---
 
-## IV. Refactor the CSS with Bulma (25%)
+## IV. Refactor the CSS with Bulma and add an about.html page (35%)
 - Use [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md) as a "starter" page
 - Reimplement the app UI in the starter page
 - See [HW3 - Bulma Requirements](hw3-bulma-requirements.md)
 
 ---
 
-## V. Add an about.html page (10%)
-- See [HW3 - Bulma Requirements](hw3-bulma-requirements.md)
-  
----
-
-## VI. Choose a language to code in (0-15%)
+## V. Choose a language to code in (0-15%)
 
 - **Option #1** - ES6 "Vanilla" JavaScript (max grade for this option is 0%)
   - just do what we've been doing all semester (ES6 modules, arrow functions, `let` & `const` etc)
@@ -65,14 +60,14 @@
 
 ---
 
-## VII. Bundle the code (15%)
+## VI. Bundle the code (15%)
 - For **option #1** (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
 - For **option #2** (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
 - For **option #3** (React) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to React#v-bootstrapping-a-react-project](../notes/react-intro.md#v-bootstrapping-a-react-project)
   
 ---
 
-## VIII. The app still works (15%)
+## VII. The app still works (15%)
 
 - The app should now:
   - look good and be mobile friendly thanks to your HTML/CSS skills, and Bulma
@@ -83,14 +78,14 @@
 
 ---
 
-## IX. Documentation
+## VIII. Documentation
 - In **documentation.txt**:
   - tell us what language you coded in
-  - for section VI. options #2 & #3, describe the code changes you implemented
+  - for section V. options #2 & #3, describe the code changes you implemented
 - 10% if not done
 ---
 
-## X. Submission
+## IX. Submission
 - Post the completed HW-3 to banjo:
   - Did you forget how to post to `banjo.rit.edu`? Get help here --> https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
   - don't post unneeded files/folders to banjo (**package.json**, **node_modules**, TypeScript config files, etc)
