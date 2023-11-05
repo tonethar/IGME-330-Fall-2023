@@ -20,7 +20,7 @@
 - The app's HTML file shall be named **index.html**
 - Make sure that the HTML inside **index.html** follows our course naming standards ("kebab-case" for `id` and `class` names, etc)
 - The HTML must pass the validator at: https://validator.w3.org/
-- All files (.html, .js, .css etc) must follow course naming standards (kebab-case, no spaces etc)
+- All files (.html, .js, .css etc) must follow [course naming standards](../notes/code-style-required-330.md) (kebab-case, no spaces etc)
 - ***If you are refactoring HW-2 - Audio Visualizer, this will not take too long***
 ---
 
@@ -46,17 +46,17 @@
   
 ---
 
-## VI. Choose a language to code in (15%)
+## VI. Choose a language to code in (0-15%)
 
-- **Option #1** - ES6 "Vanilla" JavaScript (max grade for this section is 0%)
+- **Option #1** - ES6 "Vanilla" JavaScript (max grade for this option is 0%)
   - just do what we've been doing all semester (ES6 modules, arrow functions, `let` & `const` etc)
-- **Option #2** - TypeScript (max grade for this section is 15%)
+- **Option #2** - TypeScript (max grade for this option is 15%)
   - Review:
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
     - Make substantial use of TypeScript in your code: interfaces, enums and strongly typed variables, function parameters, and function return types where needed
     - ***This walks through converting the Audio Visualizer over to TypeScript: [Converting an existing project to TypeScript](hw3-typescript-notes.md)***
-- **Option #3** - React (max grade for this section is 15%)
+- **Option #3** - React (max grade for this option is 15%)
   - you probably want to start out by bootstrapping a new project with Vite:
     - [Intro to React#v-bootstrapping-a-react-project](../notes/react-intro.md#v-bootstrapping-a-react-project)
   - recommendtions:
@@ -65,7 +65,7 @@
 
 ---
 
-## VII. Bundle the code (0-15%)
+## VII. Bundle the code (15%)
 - For **option #1** (ES6 Vanilla JS) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Bundling & Transpiling JS](../notes/bundling-transpiling.md)
 - For **option #2** (TypeScript) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
 - For **option #3** (React) above, be sure to transpile the code to ES5 and bundle it per these instructions: [Intro to React#v-bootstrapping-a-react-project](../notes/react-intro.md#v-bootstrapping-a-react-project)
@@ -75,23 +75,31 @@
 ## VIII. The app still works (15%)
 
 - The app should now:
-  - look good thanks to your HTML/CSS skills, and Bulma
-  - be written 
+  - look good and be mobile friendly thanks to your HTML/CSS skills, and Bulma
+  - be written in Modern JavaScript (ES6, TypeScript or React JSX)
+  - meet the [class coding standardsIGME-330 Course Code Style Requirements]((../notes/code-style-required-330.md) )
+  - have all of its code bundled into the single file - **bundle.js** that is linked to the **index.html** file
+- And it still functions as it should, right?
 
 ---
 
 ## IX. Documentation
-- Tell us what language you coded in
-- For options #2 & #3, describe the code changes you implemented
-
+- In **documentation.txt**:
+  - tell us what language you coded in
+  - for section VI. options #2 & #3, describe the code changes you implemented
+- 10% if not done
 ---
 
-## IX. Submission
+## X. Submission
+- Post the completed HW-3 to banjo:
+  - don't post unneeded files/folders to banjo (**package.json**, **node_modules**, TypeScript config files, etc)
+  - be sure to test the project on banjo and be 100% sure that it works 
 - ZIP and Post to myCourses
-  - Your completed ***coder-a*-hw3-refactor** folder (with **node_modules** deleted)
+  - Your completed ***coder-a*-hw3-refactor** folder (with **node_modules** deleted!)
   - The original version of the web app you re-factored:
     - if you refactored *HW-2 - Audio Visualizer - Ultimate Version*, I already have that, so don't worry about re-submitting it
-- Post the completed HW-3 to banjo
-- Required Documentation
+  - **documentation.txt**:
+- In the myCourses dropbox comments field, post the link to the project on banjo
+
 
 
