@@ -13,6 +13,8 @@
 ### index.html (mobile)
 ![index page hamburger](./_images/hw3-index-hamburger.png)
 
+- ***Note: It's OK if your `<canvas>` is not fully responsive and does not shrink to fit the screen***
+
 <hr>
 
 ### about.html
