@@ -72,8 +72,8 @@
 - The app should now:
   - look good and be mobile friendly thanks to your HTML/CSS skills, and Bulma
   - be written in Modern JavaScript (ES6, TypeScript or React JSX)
-  - meet the [class coding standardsIGME-330 Course Code Style Requirements]((../notes/code-style-required-330.md) )
-  - have all of its code bundled into the single file - **bundle.js** that is linked to the **index.html** file
+  - meets the [IGME-330 Course Code Style Requirements]((../notes/code-style-required-330.md) )
+  - has all of its code bundled into a single file - **bundle.js** - that is linked to the **index.html** file
 - And it still functions as it should, right?
 
 ---
