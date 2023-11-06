@@ -82,7 +82,7 @@
 - In **documentation.txt**:
   - tell us what language you coded in
   - for section V. options #2 & #3, describe the code changes you implemented
-- 10% if not done
+- (-10%) if not submitted
 ---
 
 ## IX. Submission
