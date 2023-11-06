@@ -91,9 +91,11 @@
   - don't post unneeded files/folders to banjo (**package.json**, **node_modules**, TypeScript config files, etc)
   - be sure to test the project on banjo and be 100% sure that it works 
 - ZIP and Post to myCourses
-  - Your completed ***coder-a*-hw3-refactor** folder (with **node_modules** deleted!)
-  - The original version of the web app you re-factored:
-    - if you refactored *HW-2 - Audio Visualizer - Ultimate Version*, I already have that, so don't worry about re-submitting it
+  - 1) Your completed ***coder-a*-hw3-refactor** folder (be sure to DELETE the **node_modules** folder!)
+  - 2) In the same ZIP - ALL the other tooling related files (**package.json**, TypeScript and webpack config files etc)
+  - 3) The original version of the web app you re-factored:
+    - put this in a folder named **coder-a-original** (using your last name & first initial)
+    - IF you refactored *HW-2 - Audio Visualizer - Ultimate Version*, I already have that, so don't worry about re-submitting it
   - **documentation.txt**:
 - In the myCourses dropbox comments field, post the link to the project on banjo
 
