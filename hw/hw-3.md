@@ -74,7 +74,7 @@
   - be written in Modern JavaScript (ES6, TypeScript or React JSX)
   - meets the [IGME-330 Course Code Style Requirements]((../notes/code-style-required-330.md) )
   - has all of its code bundled into a single file - **bundle.js** - that is linked to the **index.html** file
-- And it still functions as it should, right?
+- And it still functions as it should, both locally and on the banjo web server, right?
 
 ---
 
