@@ -191,7 +191,7 @@ const AudioContext = window.AudioContext;
 ---
 
 ## V. Keep re-factoring the code
-- Now that you've dealt with TypeScript errors, it's time to deal with the TypeScript "hints" - which are underlined with dashed gray lines
+- Now that you've dealt with all the TypeScript errors, it's time to deal with the TypeScript "hints" - which are underlined with dashed gray lines
 - **audio.ts**
   - Go ahead and *strongly type*:
     - `let audioCtx;` to `let audioCtx:AudioContext;`
