@@ -117,11 +117,15 @@ fsButton.onclick = e => { ...
   - this is easily fixed by using a **type assertion** - `as`:
 
 ```ts
-// CHANGE THIS
+// CHANGE THESE
+const fsButton = document.querySelector("#btn-fullscreen");
 const volumeSlider = document.querySelector("#volumeSlider");
 
 // TO THIS
+const fsButton = document.querySelector("#btn-fullscreen") as HTMLButtonElement;
 const volumeSlider = document.querySelector("#volumeSlider") as HTMLInputElement;
+
+//... AND SO ON 
 ```
 
 - Next error up:
