@@ -91,8 +91,8 @@ etc ...
 ```ts
 interface DrawParams{
   showGradient: boolean,
-  showBars?: boolean,
-  showCircles?: boolean,
+  showBars: boolean,
+  showCircles: boolean,
   // etc ...
 }
 ```
