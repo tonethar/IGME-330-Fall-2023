@@ -34,20 +34,24 @@
 ## III. Screenshots
 
 ### index.html 
+- Note that **"App"** is bolded while "About" is not
 ![index page](./_images/hw3-index.png)
 
 <hr>
 
 ### index.html (mobile)
+- Note that **"App"** is bolded while "About" is not
 - ***Note: It's OK if your `<canvas>` is not fully responsive and does not shrink to fit the screen***
 ![index page hamburger](./_images/hw3-index-hamburger.png)
 
 <hr>
 
 ### about.html
+- Note that **"About"** is bolded while "App" is not
 ![about page](./_images/hw3-about.png)
 
 <hr>
 
 ### about.html (mobile)
+- Note that **"About"** is bolded while "App" is not
 ![about page hamburger](./_images/hw3-about-hamburger.png)
