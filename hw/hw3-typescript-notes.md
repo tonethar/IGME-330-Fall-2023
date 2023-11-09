@@ -99,7 +99,7 @@ interface DrawParams{
 
 - To use the `DrawParams` interface, change the start of `draw()` to look like this:
   - `const draw = (params:DrawParams) => {...`
-- After adding in the other possible (optional) values for draw params, that knocked off all 6 of my **canvas.ts** errors
+- After adding in the other proprty names for draw params, that knocked off all 6 of my **canvas.ts** errors
 
 ---
 
