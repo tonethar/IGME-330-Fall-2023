@@ -25,7 +25,7 @@
 - It must have a navigation system that includes a functional hamburger menu that will toggle its appearance when clicked
 - Get rid of the Hotdog icon (unless your project is about hot dogs)
   - here are some ideas: https://fontawesome.com/search?q=audio&o=r&m=free
-- The colors chosen for backgrounds/fonts etc should be consistent with **index.html**
+- The colors chosen for backgrounds/fonts etc should be consistent with **about.html**
 - To keep the hamburger menu functional, rename **index.js** to **hamburger.js** and import it with a `<script>` tag OR move that code to `setupUI()` or similar
 - See example screenshots below
 
