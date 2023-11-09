@@ -31,7 +31,7 @@
 
 <hr>
 
-## XX. Screenshots
+## III. Screenshots
 
 ### index.html 
 ![index page](./_images/hw3-index.png)
