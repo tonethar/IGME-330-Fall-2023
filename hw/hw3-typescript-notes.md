@@ -164,14 +164,15 @@ volumeSlider.oninput = e => {
   - if you see ***Property 'webkitAudioContext' does not exist on type 'Window & typeof globalThis'. Did you mean 'AudioContext'?ts(2551)***
 
 ```ts
-CHANGE THIS:
+// CHANGE THIS:
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 
-TO THIS:
+// TO THIS:
 const AudioContext = window.AudioContext;
 
 // we really don't need the `webkitAudioContext` stuff anymore
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Migrating_from_webkitAudioContext
+// and, actually, we could just delete this whole line of code now, and it will work fine
 ```
 
 - Once all of the TypeScript errors are gone from all of your **.ts** files, move on
