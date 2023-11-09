@@ -43,6 +43,7 @@
 ### index.html (mobile)
 - Note that **"App"** is bolded while "About" is not
 - Note that the Font Awesome hotdog icon has been replaced
+- Note the functional hamburger menu
 - ***Note: It's OK if your `<canvas>` is not fully responsive and does not shrink to fit the screen***
 ![index page hamburger](./_images/hw3-index-hamburger.png)
 
@@ -58,4 +59,5 @@
 ### about.html (mobile)
 - Note that **"About"** is bolded while "App" is not
 - Note that the Font Awesome hotdog icon has been replaced
+- Note the functional hamburger menu
 ![about page hamburger](./_images/hw3-about-hamburger.png)
