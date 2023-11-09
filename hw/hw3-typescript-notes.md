@@ -4,6 +4,7 @@
 
 ## I. Get ready!
 - Before you start writing your TypeScript, run your app in Liveserver to be 100% sure that it works!
+- And, post it on banjo and be sure that it works there!
 
 ---
 
