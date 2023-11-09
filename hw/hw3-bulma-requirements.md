@@ -4,7 +4,7 @@
 - A good starting point is **home.html** from [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md)
 - The name of the page must be **about.html**
   - give the `<title>` tag a meaningful value
-- It must have a navigation system that includes a hamburger menu
+- It must have a navigation system that includes a functional hamburger menu that will toggle its appearance when clicked
 - It must have text that describes the project (meaning, get rid of the "hotdog" text)
 - It must have at least one image that is related to the project (meaning, get rid of the "hotdog" image)
 - It must have your contact info on it (meaning, get rid of Ace Coder's info)
