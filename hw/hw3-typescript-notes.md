@@ -1,4 +1,4 @@
-# Converting an existing project to TypeScript
+# HW-3 - Converting an existing project to TypeScript
 
 ---
 
