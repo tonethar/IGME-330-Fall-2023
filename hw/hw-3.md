@@ -26,9 +26,9 @@
 ---
 
 ## III. Refactor the JS (10%)
-- all regular functions (including anonymous functions) will be refactored to utilize `const` and arrow function syntax
-- variable and function names must follow course naming standards
-- all code will be located in ES6 module files that use `import` and/or `export` as we have been doing all semester
+- All regular functions (including anonymous functions) will be refactored to utilize `const` and arrow function syntax
+- Variable and function names must follow course naming standards
+- All code will be located in ES6 module files that use `import` and/or `export` as we have been doing all semester
   - if needed, refactor the code to "separate concern" into specific logical modules (meaning, separate .js files that utilize `export` and/or `import`)
   - ES6 `class` declarations ***MUST*** be in their own distinct file (ex. **CircleSprite.js** or **RectangleSprite.js** etc...)
 - ***If you are refactoring HW-2 - Audio Visualizer, this will not take too long***
