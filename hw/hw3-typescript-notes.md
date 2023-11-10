@@ -224,9 +224,15 @@ const AudioContext = window.AudioContext;
 
 ## VI. Keep going
 
-- Organize your **src/** folder to look something like this:
+- 1) Organize your **src/** folder to look something like this:
 
 ![screenshot](_images/hw3-src-folder.png)
+
+- 2) Function parameter *destructuring* of your function parameters from a single configuration object can make your code much clearer. We have demoed this in class a few times, here's another walkthrough that illustrates the concept again:
+  - https://gomakethings.com/destructuring-function-parameters-with-vanilla-js-for-better-developer-ergonomics/
+
+- 3) Destructuring function parameters with TypeScript is equally valuable, but a little more verbose. Basically, you'll end up creating an `interface` in order to define the types of the paramaters:
+  - https://byby.dev/ts-object-destructuring
 
 ---
 
