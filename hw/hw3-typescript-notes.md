@@ -219,6 +219,19 @@ const AudioContext = window.AudioContext;
     - Hint: create a `interface ColorStop{...}`  first
 - **ES6 classes & TypeScript**
   - https://www.typescriptlang.org/docs/handbook/2/classes.html
-   
+
+---
+
+---
+
+## VI. Keep going
+
+---
+- Code organzation
+![screenshot](_images/hw3-src-folder.png)
+---
+
+
+  
 ---
 ---
