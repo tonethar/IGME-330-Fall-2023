@@ -222,16 +222,12 @@ const AudioContext = window.AudioContext;
 
 ---
 
----
-
 ## VI. Keep going
 
----
-- Code organzation
+- Organize your **srec** folder to look something like this:
+
 ![screenshot](_images/hw3-src-folder.png)
+
 ---
 
 
-  
----
----
