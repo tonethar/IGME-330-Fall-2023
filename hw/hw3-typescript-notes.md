@@ -250,7 +250,11 @@ export default class Sprite {
   }
 };
 
+
 // src/canvas.ts
+
+import Sprite from './classes/Sprite';
+let sprite = new Sprite({ x: 0, y: 0, width: 100, height: 100 });
 
 ```
 
