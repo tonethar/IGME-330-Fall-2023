@@ -15,7 +15,7 @@
 - See example screenshots below
 
 
-<hr>
+---
 
 ## II. An 'App' Page is required
 - A good starting point is **home.html** from [PE-08 - Bulma I - Intro to Bulma](../pe/pe-08.md)
@@ -29,16 +29,35 @@
 - To keep the hamburger menu functional, rename **index.js** to **hamburger.js** and import it with a `<script>` tag OR move that code to `setupUI()` or similar
 - See example screenshots below
 
-<hr>
+---
 
-## III. Screenshots
+## III. FAQ
+
+- ***Do I have to do ALL of my styles with Bulma or can I still use plain-old CSS?***
+  - you will likely find the need to keep some of your "old" CSS - for example the button behaviors. Below is what I kept around for the sample HW-3:
+ 
+**styles/default-styles.css**
+
+```css
+button[data-playing="yes"]:after{
+  content: "Pause";
+}
+
+button[data-playing="no"]:after{
+  content: "Play";
+}
+```
+
+---
+
+## IV. Screenshots
 
 ### index.html 
 - Note that **"App"** is bolded while "About" is not
 - Note that the Font Awesome hotdog icon has been replaced
 ![index page](./_images/hw3-index.png)
 
-<hr>
+---
 
 ### index.html (mobile)
 - Note that **"App"** is bolded while "About" is not
@@ -47,14 +66,14 @@
 - ***Note: It's OK if your `<canvas>` is not fully responsive and does not shrink to fit the screen***
 ![index page hamburger](./_images/hw3-index-hamburger.png)
 
-<hr>
+---
 
 ### about.html
 - Note that **"About"** is bolded while "App" is not
 - Note that the Font Awesome hotdog icon has been replaced
 ![about page](./_images/hw3-about.png)
 
-<hr>
+---
 
 ### about.html (mobile)
 - Note that **"About"** is bolded while "App" is not
