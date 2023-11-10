@@ -222,7 +222,7 @@ const AudioContext = window.AudioContext;
 
 ---
 
-## VI. Keep going
+## VI. Keep on going!
 
 ### VI-A. ES6 classes/sprites with TypeScript
 
