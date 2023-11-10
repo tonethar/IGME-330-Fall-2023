@@ -224,16 +224,59 @@ const AudioContext = window.AudioContext;
 
 ## VI. Keep going
 
-- 1) Organize your **src/** folder to look something like this:
+### VI-A. ES6 classes/sprites with TypeScript
 
-![screenshot](_images/hw3-src-folder.png)
+**src/classes/Sprite.ts**
 
-- 2) Function parameter *destructuring* of your function parameters from a single configuration object can make your code much clearer. We have demoed this in class a few times, here's another walkthrough that illustrates the concept again:
+```ts
+// src/classes/Sprite.ts
+
+export default class Sprite {
+  x:number;
+  y:number;
+  width:number;
+  height:number
+ 
+  constructor({ x, y, width, height }) {
+    Object.assign(this, { x, y, width, height });
+  }
+
+  update(dt:number){
+    // ... if needed
+  }
+
+  draw(ctx:CanvasRenderingContext2D){
+    // ...
+  }
+};
+
+// src/canvas.ts
+
+```
+
+---
+
+### VI-B. Function parameter *destructuring*
+
+- Function parameter *destructuring* of your function parameters from a single configuration object can make your code much clearer
+- We have demoed this in class a few times, here's another walkthrough that illustrates the concept again:
   - https://gomakethings.com/destructuring-function-parameters-with-vanilla-js-for-better-developer-ergonomics/
 
-- 3) Destructuring function parameters with TypeScript is equally valuable, but a little more verbose. Basically, you'll end up creating an `interface` in order to define the types of the paramaters:
+---
+
+### VI-C. Function parameter *destructuring* with TypeScript
+
+- Destructuring function parameters with TypeScript is equally valuable, but a little more verbose
+- Basically, you'll end up creating an `interface` in order to define the types of the paramaters:
   - https://byby.dev/ts-object-destructuring
 
 ---
 
+### VI-D. Organize your **src/** folder to look something like this:
+
+![screenshot](_images/hw3-src-folder.png)
+
+
+---
+---
 
