@@ -5,7 +5,7 @@
 - Your starting point MUST be the "done" version of [PE-07 - Audio Visualizer](../pe/pe-07.md)
 
 
-<hr>
+---
 
 ## I. Refactor the starting code to meet our course coding standards
 - [IGME-330 - Course Code Style Requirements](../notes/code-style-required-330.md)
@@ -17,7 +17,7 @@
 - ***But don't worry about the sound files names - they don't have to follow the naming standards***
 
 
-<hr>
+---
 
 ## II. User Experience Requirements (35%)
 - Add 2 Audio Effect nodes to the audio routing graph: 
@@ -28,7 +28,7 @@
   - The user control could be a checkbox, pull-down (i.e. a `<select>`) or 2 radio buttons
   - The waveform data is the `getByteTimeDomainData` property of the analyzer node, and is documented here: [AnalyserNode.getByteTimeDomainData()](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteTimeDomainData)
 
-<hr>
+---
 
 ##  III. Code Requirements (35%)
 
@@ -38,7 +38,7 @@
 - Make sure that your visualizer does not run at more than 60 FPS on a user's machine:
   - get rid of the `requestAnimationFrame()` code and replace it with [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 
-<hr>
+---
 
 ## IV. App Data requirements (15%)
 
@@ -57,7 +57,7 @@
   - Important: structure your JSON data to be a simple as possible, and don't make it any harder to parse than necessary
 - Load the data when the app first starts up, and utilize it
 
-<hr>
+---
 
 
 ## V. Aesthetic Requirements (0%-15%)
@@ -77,7 +77,7 @@
   - For example, merely changing the colors and the size of the pulsing circles, or modifying the background gradient from one garish combination of colors to another garish combination of colors, will not earn any points in this category
   - For maximum points in this category, think "passion project" or "portfolio piece" that is distinctly different from PE-07 and is something you could show to a potential employer
   
-<hr>
+---
 
 ##  VI. Documentation Requirements
 
@@ -91,7 +91,7 @@
     - 15% would be substantial improvement over the AV HW - a "wow" experience
     - and everything in between
 
-<hr>
+---
 
 ## VII. Hints/Tips
 
@@ -145,7 +145,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
     - The power of the canvas is that you can draw *anything* on it!
     - Try googling "audio visualizations" or "data visualizations" and get some ideas!
 
-<hr>
+---
 
 ## VIII. Rubric
 
@@ -159,7 +159,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
   - (-10%) if not done
 - ***Starting point is NOT PE-07 Audio Visulizer - (-100%)***
 
-<hr>
+---
 
 ## IX. Submission
 
@@ -167,7 +167,7 @@ const drawLines = (ctx,audioData,lineWidth=1,strokeStyle="white",magnitude=100,s
   - (-5%) for a misnamed folder
 - ZIP the folder and post to myCourses
 
-<hr>
+---
 
 ## X. FAQ
 - Can I change the audio files?
