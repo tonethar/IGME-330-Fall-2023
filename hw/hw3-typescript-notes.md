@@ -271,7 +271,7 @@ let sprite = new Sprite({ x: 0, y: 0, width: 100, height: 100 });
 ### VI-C. Function parameter *destructuring* with TypeScript
 
 - Destructuring function parameters with TypeScript is equally valuable, but a little more verbose
-- Basically, you'll end up creating an `interface` in order to define the types of the paramaters:
+- Basically, you'll end up creating an `interface` in order to define the types of the parameters:
   - https://byby.dev/ts-object-destructuring
 
 ---
