@@ -34,7 +34,7 @@
 - Challenges:
   - add a `text` attribute to the `Header` component (similar to how `Footer` does it)
   - *destructure* the `props` parameter of `Footer` into `year` and `name` parameters
-  - create an `Image` component (for the tiger image) and give it `url`, `altText` and `height` attributes
+  - create an `Image` component (for the tiger image) and give it `src`, `altText` and `height` attributes
   - create a `List` component with a `data` attribute
  
 **react-cdn.html**
