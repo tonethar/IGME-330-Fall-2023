@@ -75,4 +75,30 @@ export default App;
   
 ---
 
-## IV.
+## IV. Create an XHR helper function
+
+- In **App.jsx**, *above* the `App` component, declare this constant
+
+```js
+// app "globals" and utils
+const baseurl = "https://www.amiiboapi.com/api/amiibo/?name=";
+```
+
+- And implement the `loadXHR()` helper function
+
+```js
+const loadXHR = (url, callback) => {
+  // set up the connection
+  // when the data loads, invoke the callback function and pass it the `xhr` object
+};
+```
+
+---
+
+## V. Create a callback function
+
+- To test our helper function, let's write a callback function that will be invoked when the amiibo data has downloaded
+
+```js
+
+```
