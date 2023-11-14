@@ -25,7 +25,9 @@
   - **App.jsx**
   - **App.css**
   - **index.html**
+    - change the `<title></title>` to "Amiibo Finder"
   - **index.css**
+    - to get rid of the vertical centering, comment out or delete `min-height: 100vh;`
   - **main.jsx**
     - remove this line from **main.jsx** - `import './index.css'`
 - Make **App.jsx** look like this:
