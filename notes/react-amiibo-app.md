@@ -2,6 +2,12 @@
 
 ## I. Overview
 - Let's see how we can build a React app that consumes a web service
+  - we will get more practice with components
+  - and with React's *"Reactivity"* - meaning *data binding*
+  - and with the core React hhoks:
+    - useState()
+    - useEffect()
+    - useContext()
 
 ---
 
