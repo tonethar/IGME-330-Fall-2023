@@ -93,11 +93,19 @@ const loadXHR = (url, callback) => {
 };
 ```
 
+- And here's `searchAmiibo()` - all done:
+
+```
+const searchAmiibo = (name, callback) => {
+  loadXHR( `${baseurl}${name}`, callback);
+};
+```
+
 ---
 
 ## V. Create a callback function
 
-- To test our helper function, let's write a callback function that will be invoked when the amiibo data has downloaded
+- To test our `searchAmiibo(name, callback)` helper function, let's write a callback function that will be invoked when the amiibo data has downloaded:
 
 ```js
 
