@@ -108,5 +108,34 @@ const searchAmiibo = (name, callback) => {
 - To test our `searchAmiibo(name, callback)` helper function, let's write a callback function that will be invoked when the amiibo data has downloaded:
 
 ```js
-
+ const parseAmiiboResult = xhr => {
+    // get the responseText string
+   
+    // declare a json variable
+   
+    // try to convert to a json object
+    
+    // log out number of results (length of json.amiibo)
+    console.log(`Number of results=${json.amiibo.length}`);
+    
+    // loop through json.amiibo and log out character name
+  };
 ```
+
+---
+
+## VI. Test it
+
+- Now everything should work, check the console to be sure
+- Try substituting "luigi", "peach" and "rit" to see what you get back
+
+```js
+  // call searchAmiibo() with "mario" and our callback function
+  searchAmiibo("mario", parseAmiiboResult); // DONE
+```
+
+--- 
+
+## VII. Hook the code up to the UI
+
+- Goal: When we click the button, we want to see the web service results of the typed in search term (character name)
