@@ -33,7 +33,7 @@
 - `npm i`
 - `npm run dev`
 - Head to localhost to see app running in browser
-- Get rid of most of the web files, but keep:
+- Get rid of some of the unneeded web files, but keep:
   - **App.jsx**
   - **App.css**
   - **index.html**
