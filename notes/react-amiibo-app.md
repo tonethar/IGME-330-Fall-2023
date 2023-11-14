@@ -15,7 +15,15 @@
 
 ---
 
-## II. Get Started
+## II. Amiibo API
+
+- Docs: https://amiiboapi.com/docs/
+- Playground: https://amiiboapi.com/
+- Sample call: https://www.amiiboapi.com/api/amiibo/?name=mario
+
+---
+
+## III. Get Started
 
 - Create folder named **amiibo-app** and `cd` into it
 - Type: `npm create vite@latest`
@@ -67,4 +75,4 @@ export default App;
   
 ---
 
-## III.
+## IV.
