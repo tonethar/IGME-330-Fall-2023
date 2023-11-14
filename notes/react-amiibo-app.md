@@ -139,3 +139,10 @@ const searchAmiibo = (name, callback) => {
 ## VII. Hook the code up to the UI
 
 - Goal: When we click the button, we want to see the web service results of the typed in search term (character name)
+- We will need a `useState()` call for `term`
+  - need to bind the `<input>` `.value` to `term`
+  - need to update `term` whenever `.value` changes
+- We need to get button clicking working (fire up `xhr` and download the amiibo data)
+- We will need a `useState()` call for `results`
+  - need to update `results` when the amiibo data has loaded
+- We will move `parseAmiiboResult(xhr)` into the `App` component
