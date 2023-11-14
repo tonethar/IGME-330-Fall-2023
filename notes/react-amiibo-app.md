@@ -1,0 +1,58 @@
+# React Amiibo App
+
+## I. Overview
+- Let's see how we can build a React app that consumes a web service
+
+---
+
+## II. Get Started
+
+- Create folder named **amiibo-app** and `cd` into it
+- Type: `npm create vite@latest`
+  - for *Project name*: **type a period** (`.`) to create a project in current **todo-app** folder
+  - for *Framework*: choose **React**
+  - for *Variant*: choose **JavaScript**
+- `npm i`
+- `npm run dev`
+- Head to localhost to see app running in browser
+- Get rid of most of the web files, but keep:
+  - **App.jsx**
+  - **App.css**
+  - **index.html**
+  - **index.css**
+  - **main.jsx**
+    - remove this line from **main.jsx** - `import './index.css'`
+- Make **App.jsx** look like this:
+
+```jsx
+import { useState } from "react";
+import './App.css'
+
+const App = () => {
+  return <>
+    <header>
+      <h1>Amiibo Finder</h1>
+    </header>
+    <hr />
+    <main>
+      <button>Search</button>
+      <label>
+        Name: 
+        <input />
+      </label>
+    </main>
+    <hr />
+    <footer>
+      <p>&copy; 2023 Ace Coder</p>
+    </footer>
+  </>;
+};
+
+export default App;
+```
+
+- View the app in the web browser to be sure it compiles
+  
+---
+
+## III.
