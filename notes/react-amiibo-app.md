@@ -2,12 +2,16 @@
 
 ## I. Overview
 - Let's see how we can build a React app that consumes a web service
-  - we will get more practice with components
-  - and with React's *"Reactivity"* - meaning *data binding*
-  - and with the core React hhoks:
-    - useState()
-    - useEffect()
-    - useContext()
+  - we will get more practice with components ...
+  - and with React's *"Reactivity"* - meaning *data binding* ...
+  - and with the core React hooks:
+    - [`useState()`](https://react.dev/reference/react/useState)
+      - [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+    - [`useEffect()`](https://react.dev/reference/react/useEffect)
+      - [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
+      - [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)
+    - [`useContext()`](https://react.dev/reference/react/useContext)
+      - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
 
 ---
 
