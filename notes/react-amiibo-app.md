@@ -143,6 +143,7 @@ const searchAmiibo = (name, callback) => {
   - need to bind the `<input>` `.value` to `term`
   - need to update `term` whenever `.value` changes
 - We need to get button clicking working (fire up `xhr` and download the amiibo data)
-- We will need a `useState()` call for `results`
+- We will need a `useState()` call for `results` (an array of object literals)
   - need to update `results` when the amiibo data has loaded
+- We need to display the `results`
 - We will move `parseAmiiboResult(xhr)` into the `App` component
