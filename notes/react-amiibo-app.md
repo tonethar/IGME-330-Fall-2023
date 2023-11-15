@@ -264,3 +264,4 @@ useEffect(() => {
   writeToLocalStorage("term", term);
 }, [term]);
 ```
+ 
