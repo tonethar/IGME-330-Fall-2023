@@ -174,4 +174,13 @@ const searchAmiibo = (name, callback) => {
 - Now go ahead and move `const searchAmiibo = (name, callback)...` into the `App component`
 - Also delete all of the `console.log()` calls - except for the one that's in the `catch` block
 
-## VIII. 
+---
+
+## VIII. A little refactoring - make some "plain old JS" files
+
+- Go ahead and create a file in the **src** folder named **ajax.js**
+  - move `const loadXHR = (url, callback) =>...` into it and `export` it
+  - now `import` it into **App.jsx** - `import { loadXHR } from "./ajax";`
+  - test the app, it should work as before
+  - now the only "global" you have left in **App.jsx** is `const baseurl =...`
+- Now create a new file named **storage.js**
