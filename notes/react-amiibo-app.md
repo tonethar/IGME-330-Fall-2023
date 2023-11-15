@@ -71,6 +71,8 @@ export default App;
 ```
 
 - View the app in the web browser to be sure it compiles
+
+![screenshot](_images/amiibo-react-app-0.png)
   
 ---
 
