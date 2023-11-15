@@ -327,3 +327,14 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 ---
 
 ## XIII. Factor out some code and create separate components
+
+---
+
+## XIV. Discussion
+- Decomposing the app UI into distinct *components*
+- Discuss difference between the typical DOM apps we've written (IGME-235 web app, IGME-330's Technobabble) and how a React app works:
+  - Code and HTML are no longer separate
+  - `document.querySelector()`, `.innerHTML` et al aren't needed very often
+- Having a single "source of truth" for each state
+  - https://en.wikipedia.org/wiki/Single_source_of_truth
+- Sharing state between components by "lifting state up" - https://react.dev/learn/sharing-state-between-components
