@@ -330,6 +330,54 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 
 ## XIII. Factor out some code and create separate components
 
+### XIII-A. Footer.jsx
+
+- We'll do the footer together
+
+**src/Footer.jsx**
+
+```jsx
+const Footer = ({name, year}) => {
+  return <footer>
+    <p>&copy; {year} {name}</p>
+  </footer>;
+};
+export default Footer;
+```
+
+- Next, `import` it at the top of **App.jsx**
+- Replace
+
+```jsx
+<footer>
+  <p>&copy; 2023 Ace Coder</p>
+</footer>
+```
+
+- with:
+
+```jsx
+<Footer 
+  name="Ace Coder"
+  year={new Date().getFullYear()}
+/>
+```
+
+- Test the app, it should work as before
+- If you are getting a ***'name' is missing in props validation*** message, you can either ignore it, use TypeScript, or use the `PropTypes` API
+  - add the following to **Footer.jsx**
+
+```jsx
+import PropTypes from 'prop-types';
+
+...
+
+Footer.propTypes = {
+  name: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+}
+```
+
 ---
 
 ## XIV. Discussion
