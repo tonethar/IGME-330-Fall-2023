@@ -380,6 +380,32 @@ Footer.propTypes = {
 
 ---
 
+### XIII-B. Header.jsx
+- Easy!
+- Just pass in `title` as a prop!
+---
+
+### XIII-C. AmiiboList.jsx
+- Easy!
+- Keep the "state" in **App.jsx**, and just pass in `results` as a prop
+
+---
+
+### XIII-D. AmiiboSearchUI
+- Easy! (mostly)
+- Keep the "state" in **App.jsx**, and just pass in:
+  - `term`
+  - `setTerm`
+  - `searchAmiibo`
+  - `parseAmiiboResult`
+- as props
+
+---
+
+![screenshot](_images/amiibo-react-app-4.png)
+
+---
+
 ## XIV. Discussion
 - Decomposing the app UI into distinct *components*
 - Discuss difference between the typical DOM apps we've written (e.g. IGME-235 web app, IGME-330's Technobabble) and how a React app works:
