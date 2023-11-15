@@ -321,3 +321,5 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 ![screenshot](_images/amiibo-react-app-3.png)
 
 ---
+
+- Above you should see the component hierarchy (just one App component as of now), and the values of the 2 `App` state variables (`term` and `results`) and the value of the single `memo`
