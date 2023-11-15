@@ -161,4 +161,4 @@ const searchAmiibo = (name, callback) => {
   - move `parseAmiiboResult(xhr)` into the `App` component and make a small addition
 - When you are done, you should have a functioning app:
 
-![screenshot](_images/)
+![screenshot](_images/amiibo-react-app-1.png)
