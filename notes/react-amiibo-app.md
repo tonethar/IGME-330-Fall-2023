@@ -365,7 +365,7 @@ export default Footer;
 
 - Test the app, it should work as before
 - If you are getting a ***'name' is missing in props validation*** message, you can either ignore it, use TypeScript, or use the `PropTypes` API
-  - add the following to **Footer.jsx**
+  - to do the latter and tell React what the data types of `name` and `year` are, add the following to **Footer.jsx**:
 
 ```jsx
 import PropTypes from 'prop-types';
