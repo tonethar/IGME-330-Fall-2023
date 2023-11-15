@@ -281,3 +281,7 @@ const App = () => {
 
   const parseAmiiboResult = xhr => { ...
 ```
+
+- We should now see the last search `term` in the `<input>` whenever we reload the web page, or even if we close the window and reopen it
+- One problem though - if you check the console you can see that the `savedTerm` code is running too much - every time the component is re-rendered
+  - to fix this, we can use another hook [`useMemo`](https://react.dev/reference/react/useMemo)
