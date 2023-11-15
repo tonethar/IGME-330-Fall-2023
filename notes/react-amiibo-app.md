@@ -70,7 +70,9 @@ const App = () => {
 export default App;
 ```
 
-- View the app in the web browser to be sure it compiles
+- View the app in the web browser to be sure it compiles - see below:
+
+---
 
 ![screenshot](_images/amiibo-react-app-0.png)
   
