@@ -406,14 +406,14 @@ Footer.propTypes = {
 
 ---
 
-![screenshot](_images/amiibo-react-app-4.png)
+![screenshot](_images/amiibo-react-app-5.png)
 
 ---
 
 ## XIV. Discussion
 - Decomposing the app UI into distinct *components*
 - Discuss difference between the typical DOM apps we've written (e.g. IGME-235 web app, IGME-330's Technobabble) and how a React app works:
-  - Code and HTML are no longer separate
+  - Code and HTML are no longer separate - there's "inline JS" - which is traditionally frowned on!
   - `document.querySelector()`, `.innerHTML` et al aren't needed very often
 - Having a single "source of truth" for each state
   - https://en.wikipedia.org/wiki/Single_source_of_truth
