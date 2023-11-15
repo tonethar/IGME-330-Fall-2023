@@ -176,11 +176,18 @@ const searchAmiibo = (name, callback) => {
 
 ---
 
-## VIII. A little refactoring - make some "plain old JS" files
+## VIII. A little refactoring - ajax.js - q "plain old JS" file
 
 - Go ahead and create a file in the **src** folder named **ajax.js**
   - move `const loadXHR = (url, callback) =>...` into it and `export` it
   - now `import` it into **App.jsx** - `import { loadXHR } from "./ajax";`
+    - note that we don't need the file extension for the file when we `import` it
   - test the app, it should work as before
   - now the only "global" you have left in **App.jsx** is `const baseurl =...`
-- Now create a new file named **storage.js**
+ 
+---
+
+## IX. storage.js
+- We are going to utilize `window.localStorage` to save the current search term, so that when the user leaves the app (closes the window, quits the browser, restarts the computer etc), and then later returns, that search term will still be in the `<input>` as if they never left
+-  create a new file named **src/storage.js**
+-  
