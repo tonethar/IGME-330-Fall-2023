@@ -391,7 +391,7 @@ Footer.propTypes = {
 
 ---
 
-### XIII-D. AmiiboSearchUI
+### XIII-D. AmiiboSearchUI.jsx
 - Easy! (mostly)
 - Keep the "state" in **App.jsx**, and just pass in:
   - `term`
