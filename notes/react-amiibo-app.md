@@ -235,7 +235,7 @@ export const readFromLocalStorage = (key) => {
 
 ## X. Utilize storage.js
 
-- We are going to save the search `term` every time the value of `term` changes (which is tied to the `onChange` event handler of the `<input>`
+- We are going to save the search `term` every time the value of `term` changes (which is tied to the `onChange` event handler of the `<input>`)
 - We are going to use the `useEffect()` hook to do so
 - Go ahead and modify your `react` import to also bring in `useEffect`
   - `import { useEffect, useState } from "react";`
