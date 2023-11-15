@@ -176,7 +176,7 @@ const searchAmiibo = (name, callback) => {
 
 ---
 
-## VIII. A little refactoring - ajax.js - q "plain old JS" file
+## VIII. A little refactoring - ajax.js - a "plain old JS" file
 
 - Go ahead and create a file in the **src** folder named **ajax.js**
   - move `const loadXHR = (url, callback) =>...` into it and `export` it
@@ -189,5 +189,38 @@ const searchAmiibo = (name, callback) => {
 
 ## IX. storage.js
 - We are going to utilize `window.localStorage` to save the current search term, so that when the user leaves the app (closes the window, quits the browser, restarts the computer etc), and then later returns, that search term will still be in the `<input>` as if they never left
--  create a new file named **src/storage.js**
--  
+- Create a new file named **src/storage.js** - and make it look like this:
+
+```js
+const storeName = "abc1234-amiibo-app";
+
+const loadJSONFromLocalStorage = () => {
+  const string = localStorage.getItem(storeName);
+  let json;
+  try{
+    json = JSON.parse(string);
+    if(!json) throw new Error("json is null!");
+  }catch(error){
+    console.log(`ERROR: ${error} with string: ${string}`);
+    json = {};
+  }
+  return json;
+};
+
+export const writeToLocalStorage = (key, value) => {
+  console.log(`Calling writeToLocalStorage(${key},${value})`);
+  const json = loadJSONFromLocalStorage();
+  json[key] = value;
+  localStorage.setItem(storeName, JSON.stringify(json));
+};
+
+export const readFromLocalStorage = (key) => {
+  const json = loadJSONFromLocalStorage();
+  console.log(`Calling readFromLocalStorage(${key}) with value=${json[key]}`);
+  return json[key];
+}
+```
+
+- Over in **App.jxs**, `import` it
+  - `import { readFromLocalStorage, writeToLocalStorage } from "./storage";`
+
