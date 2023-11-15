@@ -243,5 +243,9 @@ useEffect(() => {
 - `useEffect()` will call the provided function - which saves the value of term to local storage - every time the `App` component is re-rendered
 - Do a search by clicking the Search biutton, or type in a different name. Then check `localStorage` in the browser's web inspector (the **Application** tab) to see that the value of `term` is being saved
 
+---
 
 ![screenshot](_images/amiibo-react-app-2.png)
+
+---
+
