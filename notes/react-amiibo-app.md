@@ -436,3 +436,18 @@ Footer.propTypes = {
 - Sharing state between components by "lifting state up" - https://react.dev/learn/sharing-state-between-components
 - *Optimizing* the code with *hooks*
 - React Browser Debugger Tools
+- Reusable code factored out into regular JS files - e.g. **storage.js** and **ajax.js**
+
+---
+
+## XVI. Anything else
+
+- This app would benefit from:
+  - better CSS/layout - a framework with a `.card` class to display the results would be nice
+  - better UI:
+    - show a "spinner" when a search is going on, then hide it when the search is complete
+    - show the number of results found
+    - add tool tips
+    - save the contents of the most recent `results` array in `.localStorage`
+    - allow users to "favorite" and view previously searched amiibo - and store these in `.localStorage`
+    - allow users to "page through" results 5 or 10 at a time
