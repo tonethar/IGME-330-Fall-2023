@@ -267,7 +267,7 @@ useEffect(() => {
 
 - Test the app and check the console, there should be fewer logs from the storage functions
   - N.B. In development mode, React does extra re-rendering of components
-- Now let's load the value of `term` from `localStorage` when the app loads - go ahead and make the first part of the `App` component look like this:
+- Now let's load the value of `term` from `localStorage` when the app first loads - go ahead and make the first part of the `App` component look like this:
 
 ```jsx
 const App = () => {
