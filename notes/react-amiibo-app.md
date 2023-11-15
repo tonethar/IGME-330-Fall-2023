@@ -256,6 +256,8 @@ useEffect(() => {
 
 ---
 
+## XI. Optimization
+
 - Right now `useEffect()` is being called every time the `App` component re-renders (for example, when the Search button is clicked), even if the value of `term` has not changed
   - to make it so that `useEffect()` will only be called when the value of `term` changes, add a *dependencies array* to the end:
  
@@ -265,8 +267,8 @@ useEffect(() => {
 }, [term]);
 ```
 
-- Test the app and check the console, there should be fewer logs from the storage functions
-  - N.B. In development mode, React does extra re-rendering of components
+- Test the app by clicking the Search button and check the console, there should be fewer logs from the storage functions, as they will only be called when `term` changes
+  - N.B. In development mode (the mode we are in now), React does some extra re-rendering of components
 - Now let's load the value of `term` from `localStorage` when the app first loads - go ahead and make the first part of the `App` component look like this:
 
 ```jsx
@@ -284,4 +286,4 @@ const App = () => {
 
 - We should now see the last search `term` in the `<input>` whenever we reload the web page, or even if we close the window and reopen it
 - One problem though - if you check the console you can see that the `savedTerm` code is running too much - every time the component is re-rendered
-  - to fix this, we can use another hook [`useMemo`](https://react.dev/reference/react/useMemo)
+- To fix this and further optimize our code, we can use another hook [`useMemo`](https://react.dev/reference/react/useMemo)
