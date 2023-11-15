@@ -224,3 +224,9 @@ export const readFromLocalStorage = (key) => {
 - Over in **App.jxs**, `import` it
   - `import { readFromLocalStorage, writeToLocalStorage } from "./storage";`
 
+---
+
+## X. Utilize storage.js
+
+- We are going to save the search `term` every time a 
+
