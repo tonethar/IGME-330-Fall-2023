@@ -223,6 +223,7 @@ export const readFromLocalStorage = (key) => {
 
 - Over in **App.jxs**, `import` it
   - `import { readFromLocalStorage, writeToLocalStorage } from "./storage";`
+- N.B. - this code is more than we need to store a single string value, and was deliberately over-engineered so that you could (for example) easily also save an array of search terms (the search *history*), or an array of results to local 
 
 ---
 
@@ -241,7 +242,7 @@ useEffect(() => {
 ```
 
 - `useEffect()` will call the provided function - which saves the value of term to local storage - every time the `App` component is re-rendered
-- Do a search by clicking the Search biutton, or type in a different name. Then check `localStorage` in the browser's web inspector (the **Application** tab) to see that the value of `term` is being saved
+- Do a search by clicking the Search button, or type in a different name. Then check `localStorage` in the browser's web inspector (the **Application** tab) to see that the value of `term` is being saved
 
 ---
 
