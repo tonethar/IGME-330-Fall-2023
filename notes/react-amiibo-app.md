@@ -310,4 +310,14 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 
 ---
 
-## XII.
+## XII. Debugging with React Developer Tools
+
+- The console has been giving us helpful React error messages along the way - but there are more powerful developer tools we could use
+- Go ahead and install the [React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- Now check the Web Inspector:
+
+---
+
+![screenshot](_images/amiibo-react-app-3.png)
+
+---
