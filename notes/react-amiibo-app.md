@@ -247,7 +247,7 @@ useEffect(() => {
 });
 ```
 
-- `useEffect()` will call the provided function - which saves the value of term to local storage - every time the `App` component is re-rendered
+- `useEffect()` will call the provided function - which saves the value of `term` to local storage - every time the `App` component is re-rendered
 - Do a search by clicking the Search button, or type in a different name. Then check `localStorage` in the browser's web inspector (the **Application** tab) to see that the value of `term` is being saved
 
 ---
@@ -256,3 +256,11 @@ useEffect(() => {
 
 ---
 
+- Right now `useEffect()` is being called every time the component re-renders (for example, when the Search button is clicked), even if the value of `term` has not changed
+  - to make it so that `useEffect()` will only be called when the value of `term` changes, add a *dependencies array* to the end:
+ 
+```jsx
+useEffect(() => {
+  writeToLocalStorage("term", term);
+}, [term]);
+```
