@@ -112,16 +112,16 @@ const searchAmiibo = (name, callback) => {
 
 ```js
  const parseAmiiboResult = xhr => {
-    // get the responseText string
+    // get the `.responseText` string
    
     // declare a json variable
    
-    // try to convert to a json object
+    // try to parse the string into a json object
     
-    // log out number of results (length of json.amiibo)
+    // log out number of results (length of `json.amiibo`)
     console.log(`Number of results=${json.amiibo.length}`);
     
-    // loop through json.amiibo and log out character name
+    // loop through `json.amiibo` and log out the character name
   };
 ```
 
