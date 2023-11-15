@@ -414,7 +414,19 @@ Footer.propTypes = {
 
 ---
 
-## XIV. Discussion
+## XIV. Publish it
+- To create a transpiled version (React JSX -&gt; Vanilla JS/HTML that you can put on the web:
+  - type ctrl-q to quit `vite`
+  - type `npm run build`
+  - now you will see the **dist/** folder has been populated with an **index.html** file, a **.js** file and a **.css** file - this is the "transpiled and bundled" version that's ready for distribution
+    - you can test it locally by running just this **dist/** folder on Live Server
+    - PS - if you put these files on banjo, you'll need to first fix the `href` attributes of the `<script>` and `<link>` tags
+      - hint: add a `.` to the beginning of the `src` and `href` urls
+- Here's a version running on banjo: https://people.rit.edu/~acjvks/330/fall-2023/react-amiibo.html
+
+---
+
+## XV. Discussion
 - Decomposing the app UI into distinct *components*
 - Discuss difference between the typical DOM apps we've written (e.g. IGME-235 web app, IGME-330's Technobabble) and how a React app works:
   - Code and HTML are no longer separate - there's "inline JS" - which is traditionally frowned on!
