@@ -423,7 +423,7 @@ Footer.propTypes = {
     - PS - if you put these files on banjo, you'll need to first fix the `href` attributes of the `<script>` and `<link>` tags
       - hint: add a `.` to the beginning of the `src` and `href` urls
 - Here's a version running on banjo: https://people.rit.edu/~acjvks/330/fall-2023/react-amiibo.html
-  - Be sure to "View Source"
+  - Be sure to "View Page Source" and "Inspect" the DOM - where's all the JSX?
 
 ---
 
