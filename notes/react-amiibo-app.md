@@ -346,7 +346,7 @@ export default Footer;
 ```
 
 - Next, `import` it at the top of **App.jsx**
-- Fianlly, replace:
+- Finally, replace:
 
 ```jsx
 <footer>
