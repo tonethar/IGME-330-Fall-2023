@@ -286,4 +286,18 @@ const App = () => {
 
 - We should now see the last search `term` in the `<input>` whenever we reload the web page, or even if we close the window and reopen it
 - One problem though - if you check the console you can see that the `savedTerm` code is running too much - every time the component is re-rendered
-- To fix this and further optimize our code, we can use another hook [`useMemo`](https://react.dev/reference/react/useMemo)
+- To fix this and further optimize our code, we can use another hook [`useMemo`](https://react.dev/reference/react/useMemo) - which *"is a React Hook that lets you cache the result of a calculation between re-renders"*
+- Go ahead and chnage this:
+
+```jsx
+const savedTerm = readFromLocalStorage("term") || "";
+```
+
+- To this:
+
+```jsx
+const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
+```
+
+- The empty array - `[]` - that is last parameter of `useMemo()` tells React to "only run this code once"
+- Do a search and check the console, there should not be any storage function logs unless we change the search term
