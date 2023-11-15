@@ -401,11 +401,11 @@ Footer.propTypes = {
 - as props
 
 ---
-
+**React Web Inspector**
 ![screenshot](_images/amiibo-react-app-4.png)
 
 ---
-
+**App.jsx**
 ![screenshot](_images/amiibo-react-app-5.png)
 
 ---
