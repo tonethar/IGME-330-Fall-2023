@@ -440,7 +440,7 @@ Footer.propTypes = {
 
 ---
 
-## XVI. Anything else
+## XVI. Anything else?
 
 - This app would benefit from:
   - better CSS/layout - a framework with a `.card` class to display the results would be nice
