@@ -150,7 +150,7 @@ const searchAmiibo = (name, callback) => {
 - We need to display the `results`
 
 ```jsx
-      {results.map((amiibo) => (
+      {results.map(amiibo => (
         <span key={amiibo.head + amiibo.tail} style={{color:"green"}}>
           <h4>{amiibo.name}</h4>
           <img 
@@ -161,7 +161,13 @@ const searchAmiibo = (name, callback) => {
         </span>
       ))}
 ```
-- We need to update `results` when the amiibo data has loaded
+
+- Note the rReact need for a unique `key` when producing lists like this
+- Also note the syntax for the use of an inline `style` - using a `class` for styling is generally preferred in React
+
+---
+  
+- Next, we need to update `results` when the amiibo data has loaded
   - move `parseAmiiboResult(xhr)` into the `App` component and make a small addition
 - When you are done, you should have a functioning app:
 
