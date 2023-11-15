@@ -4,7 +4,7 @@
 - Let's see how we can build a React app that consumes a web service
   - we will get more practice with components ...
   - and with React's *"Reactivity"* - meaning *data binding* ...
-  - and with the core React hooks:
+  - and with 2 of the 3 "core" React hooks:
     - [`useState()`](https://react.dev/reference/react/useState)
       - [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     - [`useEffect()`](https://react.dev/reference/react/useEffect)
@@ -12,7 +12,7 @@
       - [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)
     - [`useContext()`](https://react.dev/reference/react/useContext)
       - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
-
+  - we will also utilize the [`useMemo`](https://react.dev/reference/react/useMemo) React hook to *cache* a value
 ---
 
 ## II. Amiibo API
