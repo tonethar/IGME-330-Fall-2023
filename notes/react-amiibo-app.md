@@ -389,3 +389,4 @@ Footer.propTypes = {
   - https://en.wikipedia.org/wiki/Single_source_of_truth
 - Sharing state between components by "lifting state up" - https://react.dev/learn/sharing-state-between-components
 - *Optimizing* the code with *hooks*
+- React Browser Debugger Tools
