@@ -159,3 +159,6 @@ const searchAmiibo = (name, callback) => {
 ```
 - We need to update `results` when the amiibo data has loaded
   - move `parseAmiiboResult(xhr)` into the `App` component and make a small addition
+- When you are done, you should have a functioning app:
+
+![screenshot](_images/)
