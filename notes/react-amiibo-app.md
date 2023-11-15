@@ -314,7 +314,7 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 
 - The console has been giving us helpful React error messages along the way - but there are more powerful developer tools we could use
 - Go ahead and install the [React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- Now check the Web Inspector:
+- Now check the Web Inspector - the **Components** tab:
 
 ---
 
