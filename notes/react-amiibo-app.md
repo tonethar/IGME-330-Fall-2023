@@ -305,7 +305,7 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 ```
 
 - And don;t neglect to import `useMemo` at the top of **App.jsx**
-- The empty array - `[]` - that is last parameter of `useMemo()` tells React to "only run this code once"
+- The empty array - `[]` - that is last parameter of `useMemo()` tells React to "only run this code once, when the component first *mounts*"
 - Do a search and check the console, there should not be any storage function logs unless we change the search term
 
 ---
