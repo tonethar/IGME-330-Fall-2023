@@ -334,7 +334,7 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 
 ## XIV. Discussion
 - Decomposing the app UI into distinct *components*
-- Discuss difference between the typical DOM apps we've written (IGME-235 web app, IGME-330's Technobabble) and how a React app works:
+- Discuss difference between the typical DOM apps we've written (e.g. IGME-235 web app, IGME-330's Technobabble) and how a React app works:
   - Code and HTML are no longer separate
   - `document.querySelector()`, `.innerHTML` et al aren't needed very often
 - Having a single "source of truth" for each state
