@@ -142,12 +142,14 @@ const searchAmiibo = (name, callback) => {
 ## VII. Hook the code up to the UI
 
 - Goal: When we click the button, we want to see the web service results of the typed in search term (character name)
-- We will need a `useState()` call for `term`
+- 1 - We will need a `useState()` call for `term`
   - need to bind the `<input>` `.value` to `term`
   - need to update `term` whenever `.value` changes
-- We need to get button clicking working (fire up `xhr` and download the amiibo data)
-- We will need a `useState()` call for `results` (an array of object literals)
-- We need to display the `results`
+- 2 - We need to get button clicking working (fire up `xhr` and download the amiibo data)
+  - use `onClick={...}` and wrap the call to `searchAmiibo()` into an arrow function
+- 3 - We will need a `useState()` call for `results` (an array of object literals)
+  - set the initial value to an empty array - `[]`
+- 4 - We need to display the `results`
 
 ```jsx
       {results.map(amiibo => (
@@ -162,7 +164,7 @@ const searchAmiibo = (name, callback) => {
       ))}
 ```
 
-- Note the rReact need for a unique `key` when producing lists like this
+- Note the React need for a unique `key` when producing lists like this
 - Also note the syntax for the use of an inline `style` - using a `class` for styling is generally preferred in React
 
 ---
@@ -304,7 +306,7 @@ const savedTerm = readFromLocalStorage("term") || "";
 const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 ```
 
-- And don;t neglect to import `useMemo` at the top of **App.jsx**
+- And don't neglect to import `useMemo` at the top of **App.jsx**
 - The empty array - `[]` - that is last parameter of `useMemo()` tells React to "only run this code once, when the component first *mounts*"
 - Do a search and check the console, there should not be any storage function logs unless we change the search term
 
