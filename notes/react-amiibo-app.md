@@ -434,6 +434,7 @@ Footer.propTypes = {
 - Having a single "source of truth" for each state
   - https://en.wikipedia.org/wiki/Single_source_of_truth
 - Sharing state between components by "lifting state up" - https://react.dev/learn/sharing-state-between-components
+  - passing functions as parameters - see the `AmiiboSearchUI` component
 - *Optimizing* the code with *hooks*
 - React Browser Debugger Tools
 - Reusable code factored out into regular JS files - e.g. **storage.js** and **ajax.js**
