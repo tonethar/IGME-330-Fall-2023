@@ -256,7 +256,7 @@ useEffect(() => {
 
 ---
 
-- Right now `useEffect()` is being called every time the component re-renders (for example, when the Search button is clicked), even if the value of `term` has not changed
+- Right now `useEffect()` is being called every time the `App` component re-renders (for example, when the Search button is clicked), even if the value of `term` has not changed
   - to make it so that `useEffect()` will only be called when the value of `term` changes, add a *dependencies array* to the end:
  
 ```jsx
