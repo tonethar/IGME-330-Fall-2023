@@ -1,5 +1,8 @@
 # HW-4 - *NY State Park Buddy* (DRAFT)
-
+***Note: this is a DRAFT from last semester and will not be updated until we return after Thanbksgiving break on 11/28***
+- Additional requirements:
+  - TypeScript
+  - Firebase integration
 
 ## Overview
 - NYS Park Buddy allows the user to:
@@ -68,14 +71,14 @@
 
 **iii. Favorites saved to localStorage as described above (10%)**
 
-**iv. Web Component requirement (10%)**
+~~**iv. Web Component requirement (10%)**~~
 
-- `<header>` code is moved into a web component
-  - web component is in its own JS file
-  - web component uses slots to accept title and subtitle data
-- `<footer>` code is moved into a web component
-  - web component is in its own JS file
-  - web component uses slots to accept title (in this case, the name of the copyright holder) and year data
+~~- `<header>` code is moved into a web component~~
+  ~~- web component is in its own JS file~~
+  ~~- web component uses slots to accept title and subtitle data~~
+~~- `<footer>` code is moved into a web component~~
+  ~~- web component is in its own JS file~~
+  ~~- web component uses slots to accept title (in this case, the name of the copyright holder) and year data~~
 
 
 **v. Follow course coding standards**
