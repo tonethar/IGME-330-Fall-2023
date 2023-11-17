@@ -61,3 +61,5 @@
 - `cat <filename>` to quickly preview the contents of a file
 - `mkdir <foldername>;cd $_` to create a folder and then `cd` into it
   - `$_` is the last argument of the previous command
+- more fundamental commands - https://www.math.utah.edu/lab/unix/unix-commands.html
+- more fun - https://github.com/ohmyzsh/ohmyzsh/wiki
