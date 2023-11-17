@@ -54,6 +54,9 @@
 - *ctrl-a* - to move the cursor to the *beginning* of the line
 - *ctrl-e* - to move the cursor to the *end* of the line
 - *up arrow* - to view previously typed commands (continue pressing up arrow to cycle through command history, the down arrow goes forward through the history)
-- *tab key* - for autocompletion of partially typed file names
+- *tab key* - for autocompletion of partially typed file/folder names
 - *drag and drop* folders into GitBash (or Terminal) to have their file paths typed for you
+
+**Other**
 - `cat <filename>` to quickly preview the contents of a file
+- `mkdir <foldername>;cd $_` to create a folder and then `cd` into it (`$_` is the last argument of the previous command)
