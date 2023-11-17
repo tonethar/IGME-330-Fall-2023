@@ -59,4 +59,5 @@
 
 **Other**
 - `cat <filename>` to quickly preview the contents of a file
-- `mkdir <foldername>;cd $_` to create a folder and then `cd` into it - `$_` is the last argument of the previous command)
+- `mkdir <foldername>;cd $_` to create a folder and then `cd` into it
+  - `$_` is the last argument of the previous command
