@@ -88,7 +88,7 @@
 
 **iii. Favorites saved to localStorage as described above (10%)**
 
-**iv.  admin.html displays the frequency of all user's favorites as described above(25%)**
+**iv.  favorites-admin.html displays the frequency of all user's favorites as described above (25%)**
 
 **v. Follow course coding standards**
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
