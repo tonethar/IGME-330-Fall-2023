@@ -1,7 +1,8 @@
 # HW-4 - *NY State Park Buddy* (DRAFT)
 ***Note: this is a DRAFT from last semester and will not be updated until sometime after we return from Thanksgiving break***
 - Additional requirements:
-  - TypeScript
+  - Favoriting/unfavoriting
+  - `localStorage`
   - Firebase integration
 
 ## Overview
