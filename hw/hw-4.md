@@ -34,11 +34,11 @@
 
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
 
-    - You should probably utilize **storage.js** from [Checkoff - `localStorage` Practice](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
+  - You should probably utilize **storage.js** from [Checkoff - `localStorage` Practice](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
 
   **II-D) The frequency of favorites of ALL users can be seen on an admin page***
 
-    - the name of this page is **admin.html**
+  - The name of this page is **admin.html**
 
 
 
