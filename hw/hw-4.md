@@ -1,5 +1,5 @@
 # HW-4 - *NY State Park Buddy* (DRAFT)
-***Note: this is a DRAFT from last semester and will not be updated until we return after Thanbksgiving break on 11/28***
+***Note: this is a DRAFT from last semester and will not be updated until sometime after we return from Thanksgiving break***
 - Additional requirements:
   - TypeScript
   - Firebase integration
@@ -33,6 +33,8 @@
     - if no park is selected, neither button should be enabled (or they could be hidden with `display: none`)
 
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
+
+  - You should probably utilize **storage.js** from [Checkoff - `localStorage` Practice](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
 
 <hr>
 
