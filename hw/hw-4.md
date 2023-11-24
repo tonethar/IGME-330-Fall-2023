@@ -10,14 +10,14 @@
   - click on the markers to view more information about the park
   - favorite and unfavorite parks and have their list preserved in `.localStorage`
 
-<hr>
+---
 
 ## I. Complete the starter exercise
 
 - Head to [HW-4 - NY State Park Buddy - Starter](hw-4-starter.md) and complete the exercise
 - Make a copy of the ***lastName*-*firstInitial*-hw4-starter** folder and rename it to ***lastName*-*firstInitial*-hw4**
 
-<hr>
+---
 
 ## II. Functional Requirements
 
@@ -34,19 +34,25 @@
 
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
 
-  - You should probably utilize **storage.js** from [Checkoff - `localStorage` Practice](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
+    - You should probably utilize **storage.js** from [Checkoff - `localStorage` Practice](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
+
+  **II-D) The frequency of favorites of ALL users can be seen on an admin page***
+
+    - the name of this page is **admin.html**
+
+
 
 <hr>
 
 ## III. Screenshots
 
-<hr>
+---
 
 - **Screenshot #1** - Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the "Favorites" Panel
 
 ![screenshot](_images/HW-4V.png)
 
-<hr>
+---
 
 - **Screenshot #2**
   - After a park (Hamlin Beach State Park) is selected, its info is displayed in the "Favorites" Panel
@@ -54,7 +60,7 @@
 
 ![screenshot](_images/HW-4W.png)
 
-<hr>
+---
 
 - **Screenshot #3**
   - After a park (Stony Brook State Park) is selected, its info is displayed
@@ -63,25 +69,23 @@
 
 ![screenshot](_images/HW-4X.png)
 
-<hr>
+---
+
+- **Screenshot #4**
+
+***TBA - screenshot of admin.html***
+
+---
 
 ## IV. Rubric
 
-**i. HW-4 starter has been completed and works perfectly (65%)**
+**i. HW-4 starter has been completed and works perfectly (50%)**
 
 **ii. Favoriting/unfavoriting works as described above (15%)**
 
 **iii. Favorites saved to localStorage as described above (10%)**
 
-~~**iv. Web Component requirement (10%)**~~
-
-~~- `<header>` code is moved into a web component~~
-  ~~- web component is in its own JS file~~
-  ~~- web component uses slots to accept title and subtitle data~~
-~~- `<footer>` code is moved into a web component~~
-  ~~- web component is in its own JS file~~
-  ~~- web component uses slots to accept title (in this case, the name of the copyright holder) and year data~~
-
+**iv.  admin.html displays the frequency of all user's favorites as described above(25%)**
 
 **v. Follow course coding standards**
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
@@ -95,7 +99,7 @@
 **vi. Do your own work, and follow RIT's Academic Integrity Policy**
   - Violations of this policy could result in an F in the course
 
-<hr>
+---
 
 ## V. Hints and Tips (check back frequently - might be updated as needed)
 
@@ -118,11 +122,11 @@
 }
 ```
 
-<hr>
+---
 
 ## VI. FAQ & Errata (check back frequently - might be updated as needed)
 
-<hr>
+---
 
 ## VII. Submission
 
