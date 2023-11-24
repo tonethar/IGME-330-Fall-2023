@@ -38,7 +38,8 @@
 
   **II-D) The frequency of favorites of ALL users can be seen on an admin page***
 
-  - The name of this page is **admin.html**
+  - The name of this page is **favorites-admin.html**
+  - This demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
 
 
 
