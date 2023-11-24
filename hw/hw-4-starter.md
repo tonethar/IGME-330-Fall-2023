@@ -318,6 +318,6 @@ let favoriteIds = ["p20","p79","p180","p43"];
   - clicking on a marker shows a popup, and displays more details about that park on the "Info" section of the HTML page
   - a list of hard-coded favorites is loaded in and displayed on the HTML page. Clicking a favorite pans the map to that location and displays information about the park
 - And there's more to do for HW-4:
-  - converting the code to TypeScript
   - adding and deleting favorites
   - saving favorites to `.localStorage`
+  - saving favorites to the cloud with Firebase
