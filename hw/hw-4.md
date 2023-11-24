@@ -1,5 +1,5 @@
 # HW-4 - *NY State Park Buddy* (DRAFT)
-***Note: this is a DRAFT from last semester and will not be updated until sometime after we return from Thanksgiving break***
+***Note: Still have to add screenshots of the favorites-viewer.html page***
 - Additional requirements:
   - Favoriting/unfavoriting
   - `localStorage`
@@ -39,7 +39,7 @@
 
   **II-D) The frequency of favorites of ALL users can be seen on an admin page***
 
-  - The name of this page is **favorites-admin.html**
+  - The name of this page is **favorites-viewer.html**
   - ***TBA - what info to display on this page***
   - This demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
 
@@ -88,7 +88,7 @@
 
 **iii. Favorites saved to localStorage as described above (10%)**
 
-**iv.  favorites-admin.html displays the frequency of all user's favorites as described above (25%)**
+**iv.  favorites-viewer.html displays the frequency of all user's favorites as described above (25%)**
 
 **v. Follow course coding standards**
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
