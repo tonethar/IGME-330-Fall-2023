@@ -58,7 +58,7 @@
 ---
 
 - **Screenshot #2**
-  - After a park (Hamlin Beach State Park) is selected, its info is displayed in the "Favorites" Panel
+  - After a park (Hamlin Beach State Park) is selected, its info is displayed in the "Park Details" Panel
   - Note the *state* of the buttons - because Hamlin Beach State Park is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
 
 ![screenshot](_images/HW-4W.png)
