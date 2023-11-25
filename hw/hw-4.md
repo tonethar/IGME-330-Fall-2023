@@ -165,8 +165,10 @@ const parks = {
 };
 ```
 
+6) [HW-4 Helper? - Suggestion: create a firebase.js code module](../weekly/15A.md#ii-hw-4-helper---suggestion-create-a-firebasejs-code-module)
 
 ---
+
 
 ## VI. FAQ & Errata (check back frequently - might be updated as needed)
 
