@@ -81,6 +81,7 @@
 - **Screenshot #4**
   - Reloading the page will load in the current favorites from `localStorage` and display them in the **"Favorites"** Panel
   - Adding/deleting favorites will update both `localStorage` and the **"Favorites"** Panel
+  - See the example contents of `localStorage` in the web inspector below
 
 ![screenshot](_images/HW-4Y.png)
 
