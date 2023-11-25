@@ -1,16 +1,13 @@
 # HW-4 - *NY State Park Buddy*
 
-- Additional requirements over and above [HW-4 - NY State Park Buddy - Starter](./hw-4-starter.md
-) are:
+## Overview
+- [HW-4 - NY State Park Buddy - Starter](./hw-4-starter.md) currently allows the user to:
+  - view NYS parks as markers on a map
+  - click on the markers to view more information about the park
+- For this final version, additional features are:
   - Favoriting/unfavoriting
   - `localStorage` to persist a user's favoriting
   - Firebase integration to aggregate ALL users favoriting
-
-## Overview
-- NYS Park Buddy allows the user to:
-  - view NYS parks as markers on a map
-  - click on the markers to view more information about the park
-  - favorite and unfavorite parks and have their list preserved in `.localStorage`
 
 ---
 
