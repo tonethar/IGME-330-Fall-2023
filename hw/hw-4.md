@@ -6,7 +6,7 @@
 
 - Head to [HW-4 - NY State Park Buddy - Starter](hw-4-starter.md) and complete the exercise
 - Make a copy of the ***lastName*-*firstInitial*-hw4-starter** folder and rename it to ***lastName*-*firstInitial*-hw4**
-- THe completed "starter" NYS Park zbuddy currently allows the user to:
+- The completed "starter" NYS Park zbuddy currently allows the user to:
   - view NYS parks as markers on a map
   - click on the markers to view more information about the park
 - For this final version, additional features are:
