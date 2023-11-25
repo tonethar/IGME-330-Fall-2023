@@ -90,7 +90,7 @@
 - **Screenshot #5**
   - The  **favorite-parks-viewer.html** page displays the park id, the park name and the number of times it has been favorited
   - Bulma styling has been used so that the admin page has styling similar to **index.html**
-  - The "increment/decrement" functionality seen below is not required
+  - ***NOTE: The "increment/decrement" functionality seen below is not required***
 
 ![screenshot](_images/HW-4Z.png)
 
