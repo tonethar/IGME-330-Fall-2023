@@ -143,7 +143,30 @@
 
 ---
 
-## VI. FAQ & Errata (check back frequently - might be updated as needed)
+## VI. FAQ & Errata & Hints (check back frequently - might be updated as needed)
+
+- ***Buttons can be enabled/disabled with the `disabled` property***
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled
+  - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp
+- ***Displaying park ids and park names on favorite-parks-viewer.html***
+  - you only need to store the park id in Firebase
+  - your JS can then use the park id to "look up" the park name. Here's an example data structure (OR, you could instead utilize the existing JSON data file):
+
+```js
+const parks = {
+  "p79"   : "Letchworth State Park",
+  "p20"   : "Hamlin Beach State Park",
+  "p180"  : "Brookhaven State Park",
+  "p35"   : "Allan H. Treman State Marine Park",
+  "p118"  : "Stony Brook State Park",
+  "p142"  : "Watkins Glen State Park",
+  "p62"   : "Taughannock Falls State Park",
+  "p84"   : "Selkirk Shores State Park",
+  "p43"   : "Chimney Bluffs State Park",
+  "p200"  : "Shirley Chisholm State Park",
+  "p112"  : "Saratoga Spa State Park"
+};
+```
 
 ---
 
