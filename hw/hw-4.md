@@ -58,7 +58,7 @@
 ---
 
 - **Screenshot #1** - Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the **"Favorites"** Panel
-- Note that the "Favorite" and "Delete" buttons are NOT visible
+- Note that the "Favorite" and "Delete" buttons in the "Info" Panel are NOT visible
 
 ![screenshot](_images/HW-4V.png)
 
