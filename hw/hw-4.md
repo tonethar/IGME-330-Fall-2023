@@ -142,12 +142,12 @@
 ```
 
 4) Buttons can be enabled/disabled with the `disabled` property
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled
-  - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled
+    - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp
 
 5) Displaying park ids and park names on **favorite-parks-viewer.html**
-  - you only need to store the park id in Firebase
-  - your JS can then use the park id to "look up" the park name. Here's an example data structure (OR, you could instead utilize the existing JSON parks data file):
+    - you only need to store the park id in Firebase
+    - your JS can then use the park id to "look up" the park name. Here's an example data structure (OR, you could instead utilize the existing JSON parks data file):
 
 ```js
 const parks = {
