@@ -45,7 +45,7 @@
 
   **II-D) The frequency of favorites of ALL users can be seen on an admin page***
 
-  - The name of this page is **favorites-viewer.html**
+  - The name of this page is **favorite-parks-viewer.html**
   - ***TBA - what info to display on this page***
   - This demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
 
@@ -92,7 +92,7 @@
 
 - **Screenshot #5**
 
-***TBA - screenshot of favorites-viewer.html***
+***TBA - screenshot of favorite-parks-viewer.html***
 
 ![screenshot](_images/HW-4Z.png)
 
@@ -106,7 +106,7 @@
 
 **iii. Favorites saved to localStorage as described above (10%)**
 
-**iv.  favorites-viewer.html displays the frequency of all user's favorites as described above (25%)**
+**iv.  favorite-parks-viewer.html displays the frequency of all user's favorites as described above (25%)**
 
 **v. Follow course coding standards**
   - [Course Code Style Requirements](../notes/code-style-required-330.md)
