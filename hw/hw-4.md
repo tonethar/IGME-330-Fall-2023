@@ -90,7 +90,7 @@
 
 - **Screenshot #5**
 
-***TBA - screenshot of admin.html***
+***TBA - screenshot of favorites-viewer.html***
 
 ![screenshot](_images/HW-4Z.png)
 
