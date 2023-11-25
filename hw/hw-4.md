@@ -32,6 +32,7 @@
     - if the currently selected park is already a favorite, only the "Delete" button should be enabled
     - if the currently selected park is NOT a favorite, only the "Favorite" button should be enabled
     - if no park is selected, neither button should be enabled (or they could be hidden with `display: none`)
+    - ***parks can be "selected" either by clicking their marker on the map OR by cliking their name in the "Favorites" Panel***
 
   **II-C) User favorites are preserved in `localStorage` so that when the user reloads the page the contents of the Favorites panel are preserved**
 
