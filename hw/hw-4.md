@@ -51,14 +51,14 @@
 
 ---
 
-- **Screenshot #1** - Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the "Favorites" Panel
+- **Screenshot #1** - Initial page load - favorites are loaded in from `.localStorage` and shown on the right in the **"Favorites"** Panel
 
 ![screenshot](_images/HW-4V.png)
 
 ---
 
 - **Screenshot #2**
-  - After a park (Hamlin Beach State Park) is selected, its info is displayed in the "Park Details" Panel
+  - After a park (Hamlin Beach State Park) is selected, its info is displayed in the **"Park Details"** Panel
   - Note the *state* of the buttons - because Hamlin Beach State Park is NOT a favorite, the "Add Favorite" button is *enabled* & the "Delete" button is *disabled*
 
 ![screenshot](_images/HW-4W.png)
@@ -75,8 +75,8 @@
 ---
 
 - **Screenshot #4**
-  - Reloading the page will load in the current favorites from `localStorage` and display them in the "Favorites" Panel
-  - Adding/deleting favorites will update both `localStorage` and the "Favorites" Panel
+  - Reloading the page will load in the current favorites from `localStorage` and display them in the **"Favorites"** Panel
+  - Adding/deleting favorites will update both `localStorage` and the **"Favorites"** Panel
 
 ![screenshot](_images/HW-4Y.png)
 
