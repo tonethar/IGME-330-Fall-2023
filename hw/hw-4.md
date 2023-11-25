@@ -1,6 +1,7 @@
 # HW-4 - *NY State Park Buddy*
-***Note: Still have to add screenshots of the favorites-viewer.html page***
-- Additional requirements:
+
+- Additional requirements over and above [HW-4 - NY State Park Buddy - Starter](./hw-4-starter.md
+):
   - Favoriting/unfavoriting
   - `localStorage`
   - Firebase integration
