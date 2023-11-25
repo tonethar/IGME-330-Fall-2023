@@ -1,20 +1,18 @@
 # HW-4 - *NY State Park Buddy*
 
-## Overview
-- [HW-4 - NY State Park Buddy - Starter](./hw-4-starter.md) currently allows the user to:
-  - view NYS parks as markers on a map
-  - click on the markers to view more information about the park
-- For this final version, additional features are:
-  - Favoriting/unfavoriting
-  - `localStorage` to persist a user's favoriting
-  - Firebase integration to aggregate ALL users favoriting
-
 ---
 
 ## I. Complete the starter exercise
 
 - Head to [HW-4 - NY State Park Buddy - Starter](hw-4-starter.md) and complete the exercise
 - Make a copy of the ***lastName*-*firstInitial*-hw4-starter** folder and rename it to ***lastName*-*firstInitial*-hw4**
+- THe completed "starter" NYS Park zbuddy currently allows the user to:
+  - view NYS parks as markers on a map
+  - click on the markers to view more information about the park
+- For this final version, additional features are:
+  - Favoriting/unfavoriting
+  - `localStorage` to persist a user's favoriting
+  - Firebase integration to aggregate ALL users favoriting
 
 ---
 
