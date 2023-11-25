@@ -1,10 +1,10 @@
 # HW-4 - *NY State Park Buddy*
 
 - Additional requirements over and above [HW-4 - NY State Park Buddy - Starter](./hw-4-starter.md
-):
+) are:
   - Favoriting/unfavoriting
-  - `localStorage`
-  - Firebase integration
+  - `localStorage` to persist a user's favoriting
+  - Firebase integration to aggregate ALL users favoriting
 
 ## Overview
 - NYS Park Buddy allows the user to:
