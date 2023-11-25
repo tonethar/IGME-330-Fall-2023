@@ -75,8 +75,18 @@
 ---
 
 - **Screenshot #4**
+  - Reloading the page will load in the current favorites from `localStorage` and display them in the favorites list
+  - Adding/deleting favorites will update `localStorage`
+
+![screenshot](_images/HW-4Y.png)
+
+---
+
+- **Screenshot #5**
 
 ***TBA - screenshot of admin.html***
+
+![screenshot](_images/HW-4Z.png)
 
 ---
 
