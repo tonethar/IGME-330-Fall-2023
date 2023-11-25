@@ -1,4 +1,4 @@
-# HW-4 - *NY State Park Buddy* (DRAFT)
+# HW-4 - *NY State Park Buddy*
 ***Note: Still have to add screenshots of the favorites-viewer.html page***
 - Additional requirements:
   - Favoriting/unfavoriting
@@ -43,11 +43,12 @@
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
     - be sure to test your code at some point by deleting the `localStorage` data in the web inspector, and reloading the app. It should still function, with no inital favorites. And the user should be able to add and delete favorites, and have them saved
 
-  **II-D) The frequency of favorites of ALL users can be seen on an admin page***
+  **II-D) The frequency of favorites of ALL users can be seen on an admin page**
 
   - The name of this page is **favorite-parks-viewer.html**
-  - ***TBA - what info to display on this page***
-  - This demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
+  - Page styling is similar to **index.html**
+  - The page will display the park id, the park name and the number of times it has been favorited
+  - This Firebase demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
 
 
 
@@ -91,8 +92,9 @@
 ---
 
 - **Screenshot #5**
-
-***TBA - screenshot of favorite-parks-viewer.html***
+  - The  **favorite-parks-viewer.html** page displays the park id, the park name and the number of times it has been favorited
+  - Bulma styling has been used so that the admin page has styling similar to **index.html**
+  - The "increment/decrement" functionality seen below is not required
 
 ![screenshot](_images/HW-4Z.png)
 
