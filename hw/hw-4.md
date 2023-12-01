@@ -172,6 +172,8 @@ const parks = {
 
 ## VI. FAQ & Errata (check back frequently - might be updated as needed)
 
+- 1) ***Will I need to create a NEW Firebase project at https://console.firebase.google.com ?***
+ - No, you can re-use the project you created on the "High Scores" HW. You'll just need a new proeprty name for the `ref()` - something like `park-favorites` will work
 
 ---
 
