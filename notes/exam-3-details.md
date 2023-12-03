@@ -21,6 +21,7 @@
     - [Week 14B - Firebase Notes](../weekly/14B.md#ii-firebase-notes)
     - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
   - `.localStorage`
+    - [localStorage Practice - Storage List!](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
 
 <hr>
 
