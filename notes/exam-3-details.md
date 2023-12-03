@@ -1,4 +1,4 @@
-# *Exam #3 Details - DRAFT*
+# Exam #3 Details
 
 ## I. When is it? / What's on it?
 - Finals Week (check SIS for date/time/location)
