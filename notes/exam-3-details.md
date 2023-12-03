@@ -5,8 +5,9 @@
 - *Anything* and *everything* we have covered weeks 1-14 of this semester is fair game
   - [Exam #1 Details](exam-1-details.md)
   - [Exam #2 Details](exam-2-details.md)
-- Since the last exam on 10B we've covered:
-  - [Transpiling code with Webpack & Babel](bundling-transpiling.md)
+- Since the last exam on 11A we've covered:
+  - Transpiling
+    - [Transpiling code with Webpack & Babel](bundling-transpiling.md)
   - TypeScript
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
