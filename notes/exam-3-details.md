@@ -21,12 +21,12 @@
     - [PE-08 - Bulma I - Intro to Bulma](https://github.com/tonethar/IGME-330-Fall-2023/blob/main/pe/pe-08.md)
   - Mapbox
       - [PE-09 - Maps & Mapbox](../pe/pe-09.md)
+  - `.localStorage`
+    - [localStorage Practice - Storage List!](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
   - Firebase
     - [PE-10 - Firebase](../pe/pe-10.md)
     - [Week 14B - Firebase Notes](../weekly/14B.md#ii-firebase-notes)
     - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
-  - `.localStorage`
-    - [localStorage Practice - Storage List!](https://github.com/tonethar/IGME-330-Master/blob/master/notes/localstorage-practice.md)
 
 <hr>
 
