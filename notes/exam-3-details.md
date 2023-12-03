@@ -10,7 +10,12 @@
   - TypeScript
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
-  - [PE-08 - Maps & Mapbox](../pe/pe-08.md)
+  - [PE-09 - Maps & Mapbox](../pe/pe-09.md)
+  - [PE-10 - Firebase](../pe/pe-10.md)
+  - React
+    - [Intro to React](https://github.com/tonethar/IGME-330-Master/blob/master/notes/react-intro.md)
+      - Playground, CDN, React *Todo App* with Vite
+    - [React Amiibo App](https://github.com/tonethar/IGME-330-Master/blob/master/notes/react-amiibo-app.md)
   - `.localStorage`
 
 <hr>
