@@ -11,6 +11,7 @@
   - TypeScript
     - [Intro to TypeScript](https://github.com/tonethar/IGME-330-Master/blob/master/notes/intro-typescript.md)
     - [Checkoff - TypeScript Practice](../checkoffs/typescript-practice.md)
+    - [HW-3 - Converting an existing project to TypeScript](../hw/hw3-typescript-notes.md)
   - React
     - [Intro to React](https://github.com/tonethar/IGME-330-Master/blob/master/notes/react-intro.md)
       - Playground, CDN, React *Todo App* with Vite
