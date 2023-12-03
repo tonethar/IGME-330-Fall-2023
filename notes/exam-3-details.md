@@ -2,7 +2,7 @@
 
 ## I. When is it? / What's on it?
 - Finals Week (check SIS for date/time/location)
-- *Anything* and *everything* we have covered weeks 1-14 of this semester is fair game
+- *Anything* and *everything* we have covered weeks 1-15A of this semester is fair game
   - [Exam #1 Details](exam-1-details.md)
   - [Exam #2 Details](exam-2-details.md)
 - Since the last exam on 11A we've covered:
