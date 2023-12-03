@@ -16,6 +16,8 @@
       - Playground, CDN, React *Todo App* with Vite
     - [React Amiibo App](https://github.com/tonethar/IGME-330-Master/blob/master/notes/react-amiibo-app.md)
       - Bootstrapped a React project with Vite
+  - Bulma
+    - [PE-08 - Bulma I - Intro to Bulma](https://github.com/tonethar/IGME-330-Fall-2023/blob/main/pe/pe-08.md)
   - Mapbox
       - [PE-09 - Maps & Mapbox](../pe/pe-09.md)
   - Firebase
