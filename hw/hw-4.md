@@ -45,7 +45,8 @@
   - Page styling is similar to **index.html**
   - The page will display the park id, the park name and the number of times it has been favorited
   - This Firebase demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
-
+    - Hint: when the user clicks the "Favorite" button, use `likes: increment(1)` to *increment* the `likes` count
+    - Hint: when the user clicks the "Delete" button, use `likes: increment(-1)` to *decrement* the `likes` count
 
 
 <hr>
