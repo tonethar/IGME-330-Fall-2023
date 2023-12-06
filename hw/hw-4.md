@@ -184,6 +184,8 @@ showItems();
 
 - ***Will I need to create a NEW Firebase project at https://console.firebase.google.com ?***
   - No, you can re-use the project you created on the "Firebase High Scores" PE. You'll just need a new property name for the `ref()` - something like `park-favorites` will work
+- ***Can I chnage the color scheme of the app?***
+  - Please do!
 
 ---
 
