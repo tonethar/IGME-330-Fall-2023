@@ -47,6 +47,9 @@
   - This Firebase demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
     - Hint: when the user clicks the "Favorite" button, use `likes: increment(1)` to *increment* the `likes` count
     - Hint: when the user clicks the "Delete" button, use `likes: increment(-1)` to *decrement* the `likes` count
+  - NB: This page is an "app" that is separate and distinct from *NY State Park Buddy* app (**index.html**)
+    - meaning, it will NOT import **main.js** and will instead have its own JS file (ex. **parks-viewer.js**)
+    - there is no reason for it to import **map.js** or **storage.js**
 
 
 <hr>
