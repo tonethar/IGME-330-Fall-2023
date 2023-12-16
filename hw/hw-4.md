@@ -190,7 +190,7 @@ showItems();
 - ***May I change the color scheme of the app?***
   - Please do!
 - ***Is it OK to change the 2 "Favorite" and "Delete" buttons, to just one button that toggles between those 2 states?***
-  - Yes. That's just like we did on the Audio Visulizer HW, and it's the better way to do it.  Just be sure that things can only be Favorited/Unfavorited only once, both locally and on the favorites viewer page. Also be sure that the button text is consistent, 
+  - Yes. That's just like we did on the Audio Visulizer HW, and it's the better way to do it.  Just be sure that parks can only be Favorited/Unfavorited only once, both locally and on the favorites viewer page. Also be sure that the button text is consistent, 
 
 ---
 
