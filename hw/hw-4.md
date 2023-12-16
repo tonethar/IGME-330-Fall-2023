@@ -6,7 +6,7 @@
 
 - Head to [HW-4 - NY State Park Buddy - Starter](hw-4-starter.md) and complete the exercise
 - Make a copy of the ***lastName*-*firstInitial*-hw4-starter** folder and rename it to ***lastName*-*firstInitial*-hw4**
-- The completed "starter" NYS Park zbuddy currently allows the user to:
+- The completed "starter" *NYS Park Buddy* currently allows the user to:
   - view NYS parks as markers on a map
   - click on the markers to view more information about the park
 - For this final version, additional features are:
@@ -45,11 +45,12 @@
   - Page styling is similar to **index.html**
   - The page will display the park id, the park name and the number of times it has been favorited
   - This Firebase demo will help you set this up - [4 - More Firebase - creating a likes counter for Dog names](https://github.com/tonethar/IGME-330-Master/blob/master/notes/firebase-4.md)
-    - Hint: when the user clicks the "Favorite" button, use `likes: increment(1)` to *increment* the `likes` count
-    - Hint: when the user clicks the "Delete" button, use `likes: increment(-1)` to *decrement* the `likes` count
-  - NB: This page is an "app" that is separate and distinct from *NY State Park Buddy* app (**index.html**)
+    - Hint: when the user clicks the "Favorite" button on **index.html**, use `likes: increment(1)` to *increment* the `likes` count
+    - Hint: when the user clicks the "Delete" button **index.html**, use `likes: increment(-1)` to *decrement* the `likes` count
+  - NB: This **favorite-parks-viewer.html** page is an "app" that is separate and distinct from *NYS Park Buddy* app (**index.html**)
     - meaning, it will NOT import **main.js** and will instead have its own JS file (ex. **parks-viewer.js**)
     - there is no reason for it to import **map.js** or **storage.js**
+    - it WILL obviously need to utilize firebase code to *read* the number of `likes` each park has. This firebase code can be put in **parks-viewer.js**
 
 
 <hr>
