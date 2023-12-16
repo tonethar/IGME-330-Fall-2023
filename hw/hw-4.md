@@ -187,8 +187,10 @@ showItems();
 
 - ***Will I need to create a NEW Firebase project at https://console.firebase.google.com ?***
   - No, you can re-use the project you created on the "Firebase High Scores" PE. You'll just need a new property name for the `ref()` - something like `park-favorites` will work
-- ***Can I change the color scheme of the app?***
+- ***May I change the color scheme of the app?***
   - Please do!
+- ***Is it OK to change the 2 "Favorite" and "Delete" buttons, to just one button that toggles between those 2 states?***
+  - Yes. That's just like we did on the Audio Visulizer HW, and it's the better way to do it.  Just be sure that things can only be Favorited/Unfavorited only once, both locally and on the favorites viewer page. Also be sure that the button text is consistent, 
 
 ---
 
